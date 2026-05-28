@@ -14,7 +14,7 @@ These should mostly be free wins.
 6. Number Spiral
 7. Two Knights
 8. Coin Piles
-9. Bit Strings
+9. ~~Bit Strings~~
 10. ~~Trailing Zeros~~
 
 Goal: get used to CSES, fast coding, edge cases.
