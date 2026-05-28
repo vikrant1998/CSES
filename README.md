@@ -12,7 +12,7 @@ These should mostly be free wins.
 4. ~~Increasing Array~~
 5. ~~Permutations~~
 6. Number Spiral
-7. Two Knights
+7. ~~Two Knights~~
 8. Coin Piles
 9. ~~Bit Strings~~
 10. ~~Trailing Zeros~~
