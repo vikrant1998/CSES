@@ -6,16 +6,16 @@ If your goal is **stick with it for months and not quit**, then I'd make the fir
 
 These should mostly be free wins.
 
-1. Weird Algorithm
-2. Missing Number
-3. Repetitions
-4. Increasing Array
-5. Permutations
+1. ~~Weird Algorithm~~
+2. ~~Missing Number~~
+3. ~~Repetitions~~
+4. ~~Increasing Array~~
+5. ~~Permutations~~
 6. Number Spiral
 7. Two Knights
 8. Coin Piles
 9. Bit Strings
-10. Trailing Zeros
+10. ~~Trailing Zeros~~
 
 Goal: get used to CSES, fast coding, edge cases.
 
@@ -23,14 +23,14 @@ Goal: get used to CSES, fast coding, edge cases.
 
 ## Level 2: First Real Algorithms (11–20)
 
-11. Distinct Numbers
+11. ~~Distinct Numbers~~
 12. Apartments
 13. Ferris Wheel
 14. Restaurant Customers
 15. Movie Festival
 16. Sum of Two Values
 17. Stick Lengths
-18. Maximum Subarray Sum
+18. ~~Maximum Subarray Sum~~
 19. Collecting Numbers
 20. Missing Coin Sum
 
@@ -53,7 +53,7 @@ This is where most people start feeling smarter.
 23. Subarray Sums I
 24. Nearest Smaller Values
 25. Josephus Problem I
-26. Dice Combinations
+26. ~~Dice Combinations~~
 27. Minimizing Coins
 28. Removing Digits
 29. Coin Combinations I
