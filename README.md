@@ -11,7 +11,7 @@ These should mostly be free wins.
 3. ~~Repetitions~~
 4. ~~Increasing Array~~
 5. ~~Permutations~~
-6. Number Spiral
+6. ~~Number Spiral~~
 7. ~~Two Knights~~
 8. Coin Piles
 9. ~~Bit Strings~~
