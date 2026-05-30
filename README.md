@@ -28,7 +28,7 @@ Goal: get used to CSES, fast coding, edge cases.
 13. Ferris Wheel
 14. Restaurant Customers
 15. Movie Festival
-16. Sum of Two Values
+16. ~~Sum of Two Values~~
 17. Stick Lengths
 18. ~~Maximum Subarray Sum~~
 19. Collecting Numbers
