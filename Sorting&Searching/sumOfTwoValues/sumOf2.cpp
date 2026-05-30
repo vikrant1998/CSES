@@ -1,4 +1,7 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <unordered_map>
+#include <chrono>
+#include <cstdint>
 using namespace std;
 
 struct custom_hash {
