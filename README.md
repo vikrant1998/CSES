@@ -45,6 +45,7 @@ Rule: do not rush. For every problem, write down:
 ### Tree Algorithms
 
 - [x] Subordinates
+- [x] Tree Diameter
 
 ---
 
@@ -216,7 +217,7 @@ Focus:
 ## Tree Algorithms
 
 - [ ] Tree Matching
-- [ ] Tree Diameter
+- [x] Tree Diameter
 - [ ] Tree Distances I
 - [ ] Tree Distances II
 - [ ] Company Queries I
