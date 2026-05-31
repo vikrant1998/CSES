@@ -1,145 +1,424 @@
-LFGGG CSES
+# 200-Day Programming / Interview Prep Roadmap
 
-If your goal is **stick with it for months and not quit**, then I'd make the first 50 feel like a video game campaign where each level unlocks a new mechanic.
+Goal: become strong enough for technical interviews in ~200 days.
 
-## Level 1: Learn the Interface (1–10)
-
-These should mostly be free wins.
-
-1. ~~Weird Algorithm~~
-2. ~~Missing Number~~
-3. ~~Repetitions~~
-4. ~~Increasing Array~~
-5. ~~Permutations~~
-6. ~~Number Spiral~~
-7. ~~Two Knights~~
-8. Coin Piles
-9. ~~Bit Strings~~
-10. ~~Trailing Zeros~~
-
-Goal: get used to CSES, fast coding, edge cases.
+Main resource: CSES Problem Set  
+Rule: do not rush. For every problem, write down:
+- What is the idea?
+- What data structure/algorithm is being used?
+- Why is the time complexity accepted?
+- What mistake did I make?
 
 ---
 
-## Level 2: First Real Algorithms (11–20)
+## Phase 0 — Already Completed / Warmup
 
-11. ~~Distinct Numbers~~
-12. Apartments
-13. Ferris Wheel
-14. Restaurant Customers
-15. Movie Festival
-16. ~~Sum of Two Values~~
-17. Stick Lengths
-18. ~~Maximum Subarray Sum~~
-19. Collecting Numbers
-20. Missing Coin Sum
+### Introductory Problems
 
-New skills:
+- [x] Weird Algorithm
+- [x] Missing Number
+- [x] Repetitions
+- [x] Increasing Array
+- [x] Permutations
+- [x] Number Spiral
+- [x] Two Knights
+- [x] Two Sets
+- [x] Bit Strings
+- [x] Trailing Zeros
+- [x] Coin Piles
 
-* sorting
-* greedy
-* maps
-* two pointers
-* Kadane
+### Sorting and Searching
 
-This is where most people start feeling smarter.
+- [x] Distinct Numbers
+- [x] Sum of Two Values
+- [x] Maximum Subarray Sum
 
----
+### Dynamic Programming
 
-## Level 3: Data Structures Lite (21–30)
+- [x] Dice Combinations
 
-21. Concert Tickets
-22. Towers
-23. Subarray Sums I
-24. Nearest Smaller Values
-25. Josephus Problem I
-26. ~~Dice Combinations~~
-27. Minimizing Coins
-28. Removing Digits
-29. Coin Combinations I
-30. Book Shop
+### Graph Algorithms
 
-New skills:
+- [x] Counting Rooms
+- [x] Labyrinth
 
-* ordered sets
-* monotonic stack
-* first DP
+### Tree Algorithms
 
-You should start recognizing patterns now.
+- [x] Subordinates
 
 ---
 
-## Level 4: "I Know DP Now" (31–40)
+# Phase 1 — Foundations: Intro + Sorting / Searching
 
-31. Coin Combinations II
-32. Money Sums
-33. Grid Paths (DP section)
-34. Array Description
-35. Increasing Subsequence
-36. Counting Rooms
-37. Labyrinth
-38. Building Roads
-39. Message Route
-40. Building Teams
+Target: Days 1–30
 
-This is the sweet spot of CSES.
+Focus:
+- loops
+- sorting
+- greedy
+- two pointers
+- maps / sets
+- binary search
+- implementation speed
 
-You'll learn:
+## Introductory Problems
 
-* DP states
-* BFS
-* DFS
-* graph traversal
+- [ ] Palindrome Reorder
+- [ ] Gray Code
+- [ ] Tower of Hanoi
+- [ ] Creating Strings
+- [ ] Apple Division
+- [ ] Chessboard and Queens
+- [ ] Digit Queries
+- [ ] Grid Path Description
+
+## Sorting and Searching
+
+- [ ] Apartments
+- [ ] Ferris Wheel
+- [ ] Concert Tickets
+- [ ] Restaurant Customers
+- [ ] Movie Festival
+- [ ] Stick Lengths
+- [ ] Missing Coin Sum
+- [ ] Collecting Numbers
+- [ ] Collecting Numbers II
+- [ ] Playlist
+- [ ] Towers
+- [ ] Traffic Lights
+- [ ] Room Allocation
+- [ ] Factory Machines
+- [ ] Tasks and Deadlines
+- [ ] Reading Books
+- [ ] Sum of Three Values
+- [ ] Sum of Four Values
+- [ ] Nearest Smaller Values
+- [ ] Subarray Sums I
+- [ ] Subarray Sums II
+- [ ] Subarray Divisibility
+- [ ] Array Division
+- [ ] Movie Festival II
+- [ ] Maximum Subarray Sum II
 
 ---
 
-## Level 5: First Beast Problems (41–50)
+# Phase 2 — Dynamic Programming
 
-41. Round Trip
-42. Course Schedule
-43. Shortest Routes I
-44. Road Reparation
-45. Subordinates
-46. Tree Diameter
-47. Projects
-48. Edit Distance
-49. Flight Discount
-50. Tree Distances I
+Target: Days 31–75
 
-Now you're touching:
+Focus:
+- defining `dp[i]`
+- base cases
+- transitions
+- computing order
+- modulo arithmetic
+- 1D DP
+- 2D DP
+- knapsack-style DP
+- interval DP
 
-* Dijkstra
-* MST
-* Trees
-* Advanced DP
+## Dynamic Programming Problems
 
-without getting thrown into the really brutal stuff yet.
+- [ ] Minimizing Coins
+- [ ] Coin Combinations I
+- [ ] Coin Combinations II
+- [ ] Removing Digits
+- [ ] Grid Paths I
+- [ ] Book Shop
+- [ ] Array Description
+- [ ] Counting Towers
+- [ ] Edit Distance
+- [ ] Longest Common Subsequence
+- [ ] Rectangle Cutting
+- [ ] Money Sums
+- [ ] Removal Game
+- [ ] Two Sets II
+- [ ] Increasing Subsequence
+- [ ] Projects
+- [ ] Elevator Rides
+- [ ] Counting Tilings
+- [ ] Counting Numbers
 
 ---
 
-### What I expect for someone at your level
+# Phase 3 — Graph Algorithms
 
-Since you've done some LeetCode:
+Target: Days 76–115
 
-* Problems 1–15: mostly straightforward.
-* Problems 16–25: some head-scratching but solvable.
-* Problems 26–35: first serious learning.
-* Problems 36–45: you'll feel a noticeable jump.
-* Problems 46–50: you'll get a taste of harder algorithms.
+Focus:
+- DFS
+- BFS
+- connected components
+- shortest path
+- bipartite graphs
+- cycle detection
+- topological sorting
+- Dijkstra
+- Bellman-Ford
+- MST
 
-By the time you finish these 50, you'll have seen:
+## Graph Algorithms Problems
 
-* Sorting
-* Greedy
-* Two pointers
-* Hashing/maps
-* Binary search concepts
-* Monotonic stack
-* DFS
-* BFS
-* Dijkstra
-* MST
-* Basic trees
-* Classic DP
+- [ ] Building Roads
+- [ ] Message Route
+- [ ] Building Teams
+- [ ] Round Trip
+- [ ] Monsters
+- [ ] Shortest Routes I
+- [ ] Shortest Routes II
+- [ ] High Score
+- [ ] Flight Discount
+- [ ] Cycle Finding
+- [ ] Flight Routes
+- [ ] Round Trip II
+- [ ] Course Schedule
+- [ ] Longest Flight Route
+- [ ] Game Routes
+- [ ] Investigation
+- [ ] Road Reparation
+- [ ] Road Construction
+- [ ] Flight Routes Check
+- [ ] Planets and Kingdoms
 
-That's a very smooth ramp-up without hitting a wall in week one.
+---
+
+# Phase 4 — Range Queries + Trees
+
+Target: Days 116–150
+
+Focus:
+- prefix sums
+- segment trees
+- Fenwick trees
+- binary lifting
+- tree DFS
+- subtree queries
+- path queries
+- LCA
+
+## Range Queries
+
+- [ ] Static Range Sum Queries
+- [ ] Static Range Minimum Queries
+- [ ] Dynamic Range Sum Queries
+- [ ] Dynamic Range Minimum Queries
+- [ ] Range Xor Queries
+- [ ] Range Update Queries
+- [ ] Forest Queries
+- [ ] Hotel Queries
+- [ ] List Removals
+- [ ] Salary Queries
+- [ ] Prefix Sum Queries
+- [ ] Pizzeria Queries
+- [ ] Subarray Sum Queries
+- [ ] Distinct Values Queries
+
+## Tree Algorithms
+
+- [ ] Tree Matching
+- [ ] Tree Diameter
+- [ ] Tree Distances I
+- [ ] Tree Distances II
+- [ ] Company Queries I
+- [ ] Company Queries II
+- [ ] Distance Queries
+- [ ] Counting Paths
+- [ ] Subtree Queries
+- [ ] Path Queries
+- [ ] Path Queries II
+- [ ] Distinct Colors
+- [ ] Finding a Centroid
+
+---
+
+# Phase 5 — String Algorithms
+
+Target: Days 151–170
+
+Focus:
+- string matching
+- hashing
+- tries
+- KMP
+- Z algorithm
+- suffix arrays/basic suffix concepts
+
+Important: come back to `Word Combinations` here, not earlier.
+
+## String Algorithms
+
+- [ ] String Matching
+- [ ] Finding Borders
+- [ ] Finding Periods
+- [ ] Minimal Rotation
+- [ ] Longest Palindrome
+- [ ] Word Combinations
+- [ ] Finding Patterns
+- [ ] Counting Patterns
+- [ ] Pattern Positions
+- [ ] Distinct Substrings
+- [ ] Distinct Subsequences
+- [ ] Repeating Substring
+- [ ] String Functions
+
+---
+
+# Phase 6 — Interview Mode
+
+Target: Days 171–200
+
+Focus:
+- explaining while coding
+- solving under time pressure
+- clean implementation
+- recognizing patterns quickly
+- reviewing mistakes
+
+## Weekly Schedule
+
+- [ ] 3 days: LeetCode-style interview problems
+- [ ] 2 days: CSES maintenance / harder problems
+- [ ] 1 day: timed mock interview
+- [ ] 1 day: review old mistakes
+
+## Interview Topic Checklist
+
+### Arrays / Strings
+
+- [ ] Two Sum
+- [ ] Best Time to Buy and Sell Stock
+- [ ] Product of Array Except Self
+- [ ] Maximum Subarray
+- [ ] Merge Intervals
+- [ ] Insert Interval
+- [ ] Rotate Array
+- [ ] Valid Anagram
+- [ ] Group Anagrams
+- [ ] Longest Substring Without Repeating Characters
+
+### Two Pointers / Sliding Window
+
+- [ ] Valid Palindrome
+- [ ] Container With Most Water
+- [ ] 3Sum
+- [ ] Minimum Window Substring
+- [ ] Longest Repeating Character Replacement
+- [ ] Sliding Window Maximum
+
+### Hash Maps / Sets
+
+- [ ] Contains Duplicate
+- [ ] Top K Frequent Elements
+- [ ] Subarray Sum Equals K
+- [ ] Longest Consecutive Sequence
+
+### Stack / Queue
+
+- [ ] Valid Parentheses
+- [ ] Min Stack
+- [ ] Daily Temperatures
+- [ ] Evaluate Reverse Polish Notation
+- [ ] Largest Rectangle in Histogram
+
+### Binary Search
+
+- [ ] Binary Search
+- [ ] Search in Rotated Sorted Array
+- [ ] Find Minimum in Rotated Sorted Array
+- [ ] Koko Eating Bananas
+- [ ] Median of Two Sorted Arrays
+
+### Linked Lists
+
+- [ ] Reverse Linked List
+- [ ] Merge Two Sorted Lists
+- [ ] Linked List Cycle
+- [ ] Remove Nth Node From End
+- [ ] Reorder List
+- [ ] LRU Cache
+
+### Trees
+
+- [ ] Invert Binary Tree
+- [ ] Maximum Depth of Binary Tree
+- [ ] Diameter of Binary Tree
+- [ ] Balanced Binary Tree
+- [ ] Same Tree
+- [ ] Subtree of Another Tree
+- [ ] Lowest Common Ancestor
+- [ ] Binary Tree Level Order Traversal
+- [ ] Validate Binary Search Tree
+- [ ] Kth Smallest Element in BST
+
+### Graphs
+
+- [ ] Number of Islands
+- [ ] Clone Graph
+- [ ] Pacific Atlantic Water Flow
+- [ ] Course Schedule
+- [ ] Rotting Oranges
+- [ ] Word Ladder
+- [ ] Network Delay Time
+- [ ] Redundant Connection
+
+### Dynamic Programming
+
+- [ ] Climbing Stairs
+- [ ] House Robber
+- [ ] House Robber II
+- [ ] Coin Change
+- [ ] Longest Increasing Subsequence
+- [ ] Longest Common Subsequence
+- [ ] Word Break
+- [ ] Combination Sum IV
+- [ ] Unique Paths
+- [ ] Decode Ways
+- [ ] Partition Equal Subset Sum
+
+### Backtracking
+
+- [ ] Subsets
+- [ ] Combination Sum
+- [ ] Permutations
+- [ ] Letter Combinations of a Phone Number
+- [ ] Word Search
+- [ ] N-Queens
+
+### Heaps
+
+- [ ] Kth Largest Element in an Array
+- [ ] Last Stone Weight
+- [ ] K Closest Points to Origin
+- [ ] Task Scheduler
+- [ ] Find Median from Data Stream
+
+---
+
+# Daily Template
+
+```txt
+Date:
+
+Problem:
+
+Topic:
+
+Status:
+- [ ] Solved alone
+- [ ] Needed hint
+- [ ] Read editorial
+- [ ] Re-solved later
+
+Idea:
+
+
+Mistake:
+
+
+Time Complexity:
+
+
+Space Complexity:
+
+
+What I learned:
