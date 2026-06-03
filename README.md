@@ -27,6 +27,7 @@ Rule: do not rush. For every problem, write down:
 - [x] Trailing Zeros
 - [x] Coin Piles
 - [x] Palindrome Reorder
+- [x] Gray Code
 
 ### Sorting and Searching
 
@@ -66,7 +67,7 @@ Focus:
 ## Introductory Problems
 
 - [x] Palindrome Reorder
-- [ ] Gray Code
+- [x] Gray Code
 - [ ] Tower of Hanoi
 - [ ] Creating Strings
 - [ ] Apple Division
