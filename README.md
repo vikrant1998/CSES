@@ -28,6 +28,7 @@ Rule: do not rush. For every problem, write down:
 - [x] Coin Piles
 - [x] Palindrome Reorder
 - [x] Gray Code
+- [x] Tower of Hanoi
 
 ### Sorting and Searching
 
@@ -68,7 +69,7 @@ Focus:
 
 - [x] Palindrome Reorder
 - [x] Gray Code
-- [ ] Tower of Hanoi
+- [x] Tower of Hanoi
 - [ ] Creating Strings
 - [ ] Apple Division
 - [ ] Chessboard and Queens
