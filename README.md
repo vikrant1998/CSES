@@ -77,7 +77,7 @@ Focus:
 
 ## Sorting and Searching
 
-- [ ] Apartments
+- [x] Apartments
 - [ ] Ferris Wheel
 - [ ] Concert Tickets
 - [ ] Restaurant Customers
