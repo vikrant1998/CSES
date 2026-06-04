@@ -29,6 +29,7 @@ Rule: do not rush. For every problem, write down:
 - [x] Palindrome Reorder
 - [x] Gray Code
 - [x] Tower of Hanoi
+- [x] Creating Strings
 
 ### Sorting and Searching
 
@@ -70,7 +71,7 @@ Focus:
 - [x] Palindrome Reorder
 - [x] Gray Code
 - [x] Tower of Hanoi
-- [ ] Creating Strings
+- [x] Creating Strings
 - [ ] Apple Division
 - [ ] Chessboard and Queens
 - [ ] Digit Queries
