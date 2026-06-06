@@ -72,7 +72,7 @@ Focus:
 - [x] Gray Code
 - [x] Tower of Hanoi
 - [x] Creating Strings
-- [ ] Apple Division
+- [x] Apple Division
 - [ ] Chessboard and Queens
 - [ ] Digit Queries
 - [ ] Grid Path Description
