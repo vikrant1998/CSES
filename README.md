@@ -73,7 +73,7 @@ Focus:
 - [x] Tower of Hanoi
 - [x] Creating Strings
 - [x] Apple Division
-- [ ] Chessboard and Queens
+- [x] Chessboard and Queens
 - [ ] Digit Queries
 - [ ] Grid Path Description
 
