@@ -75,7 +75,7 @@ Focus:
 - [x] Apple Division
 - [x] Chessboard and Queens
 - [ ] Digit Queries
-- [ ] Grid Path Description
+- [x] Grid Path Description
 
 ## Sorting and Searching
 
