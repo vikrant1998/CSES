@@ -81,7 +81,7 @@ Focus:
 
 - [x] Apartments
 - [x] Ferris Wheel
-- [ ] Concert Tickets
+- [x] Concert Tickets
 - [ ] Restaurant Customers
 - [ ] Movie Festival
 - [ ] Stick Lengths
