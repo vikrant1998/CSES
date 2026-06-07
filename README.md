@@ -80,7 +80,7 @@ Focus:
 ## Sorting and Searching
 
 - [x] Apartments
-- [ ] Ferris Wheel
+- [x] Ferris Wheel
 - [ ] Concert Tickets
 - [ ] Restaurant Customers
 - [ ] Movie Festival
