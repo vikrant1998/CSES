@@ -164,7 +164,7 @@ Focus:
 
 ## Graph Algorithms Problems
 
-- [ ] Building Roads
+- [x] Building Roads
 - [ ] Message Route
 - [ ] Building Teams
 - [ ] Round Trip
