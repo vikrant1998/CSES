@@ -82,7 +82,7 @@ Focus:
 - [x] Apartments
 - [x] Ferris Wheel
 - [x] Concert Tickets
-- [ ] Restaurant Customers
+- [x] Restaurant Customers
 - [ ] Movie Festival
 - [ ] Stick Lengths
 - [ ] Missing Coin Sum
