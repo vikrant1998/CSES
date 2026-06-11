@@ -83,7 +83,7 @@ Focus:
 - [x] Ferris Wheel
 - [x] Concert Tickets
 - [x] Restaurant Customers
-- [ ] Movie Festival
+- [x] Movie Festival
 - [ ] Stick Lengths
 - [ ] Missing Coin Sum
 - [ ] Collecting Numbers
