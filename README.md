@@ -86,7 +86,7 @@ Focus:
 - [x] Movie Festival
 - [x] Stick Lengths
 - [x] Missing Coin Sum
-- [ ] Collecting Numbers
+- [x] Collecting Numbers
 - [ ] Collecting Numbers II
 - [ ] Playlist
 - [ ] Towers
