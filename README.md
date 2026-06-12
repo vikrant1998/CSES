@@ -85,7 +85,7 @@ Focus:
 - [x] Restaurant Customers
 - [x] Movie Festival
 - [x] Stick Lengths
-- [ ] Missing Coin Sum
+- [x] Missing Coin Sum
 - [ ] Collecting Numbers
 - [ ] Collecting Numbers II
 - [ ] Playlist
