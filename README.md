@@ -125,7 +125,7 @@ Focus:
 ## Dynamic Programming Problems
 
 - [x] Minimizing Coins
-- [ ] Coin Combinations I
+- [x] Coin Combinations I
 - [ ] Coin Combinations II
 - [ ] Removing Digits
 - [ ] Grid Paths I
