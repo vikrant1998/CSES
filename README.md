@@ -128,7 +128,7 @@ Focus:
 - [x] Coin Combinations I
 - [x] Coin Combinations II
 - [x] Removing Digits
-- [ ] Grid Paths I
+- [x] Grid Paths I
 - [ ] Book Shop
 - [ ] Array Description
 - [ ] Counting Towers
