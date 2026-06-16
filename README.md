@@ -127,7 +127,7 @@ Focus:
 - [x] Minimizing Coins
 - [x] Coin Combinations I
 - [x] Coin Combinations II
-- [ ] Removing Digits
+- [x] Removing Digits
 - [ ] Grid Paths I
 - [ ] Book Shop
 - [ ] Array Description
