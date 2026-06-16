@@ -11,45 +11,20 @@ Rule: do not rush. For every problem, write down:
 
 ---
 
-## Phase 0 — Already Completed / Warmup
+## Progress Summary
 
-### Introductory Problems
+**41 problems solved** (one solution folder each on disk).
 
-- [x] Weird Algorithm
-- [x] Missing Number
-- [x] Repetitions
-- [x] Increasing Array
-- [x] Permutations
-- [x] Number Spiral
-- [x] Two Knights
-- [x] Two Sets
-- [x] Bit Strings
-- [x] Trailing Zeros
-- [x] Coin Piles
-- [x] Palindrome Reorder
-- [x] Gray Code
-- [x] Tower of Hanoi
-- [x] Creating Strings
+| Topic | Solved |
+|-------|--------|
+| Introductory | 18 |
+| Sorting and Searching | 11 |
+| Dynamic Programming | 6 |
+| Graph Algorithms | 4 |
+| Tree Algorithms | 2 |
+| **Total** | **41** |
 
-### Sorting and Searching
-
-- [x] Distinct Numbers
-- [x] Sum of Two Values
-- [x] Maximum Subarray Sum
-
-### Dynamic Programming
-
-- [x] Dice Combinations
-
-### Graph Algorithms
-
-- [x] Counting Rooms
-- [x] Labyrinth
-
-### Tree Algorithms
-
-- [x] Subordinates
-- [x] Tree Diameter
+Every solved problem is checked off `[x]` in its phase section below.
 
 ---
 
@@ -68,6 +43,17 @@ Focus:
 
 ## Introductory Problems
 
+- [x] Weird Algorithm
+- [x] Missing Number
+- [x] Repetitions
+- [x] Increasing Array
+- [x] Permutations
+- [x] Number Spiral
+- [x] Two Knights
+- [x] Two Sets
+- [x] Bit Strings
+- [x] Trailing Zeros
+- [x] Coin Piles
 - [x] Palindrome Reorder
 - [x] Gray Code
 - [x] Tower of Hanoi
@@ -79,6 +65,9 @@ Focus:
 
 ## Sorting and Searching
 
+- [x] Distinct Numbers
+- [x] Sum of Two Values
+- [x] Maximum Subarray Sum
 - [x] Apartments
 - [x] Ferris Wheel
 - [x] Concert Tickets
@@ -124,6 +113,7 @@ Focus:
 
 ## Dynamic Programming Problems
 
+- [x] Dice Combinations
 - [x] Minimizing Coins
 - [x] Coin Combinations I
 - [x] Coin Combinations II
@@ -164,6 +154,8 @@ Focus:
 
 ## Graph Algorithms Problems
 
+- [x] Counting Rooms
+- [x] Labyrinth
 - [x] Building Roads
 - [x] Message Route
 - [ ] Building Teams
@@ -221,6 +213,7 @@ Focus:
 ## Tree Algorithms
 
 - [ ] Tree Matching
+- [x] Subordinates
 - [x] Tree Diameter
 - [ ] Tree Distances I
 - [ ] Tree Distances II
