@@ -13,7 +13,7 @@ Rule: do not rush. For every problem, write down:
 
 ## Progress Summary
 
-**41 problems solved** (one solution folder each on disk).
+**42 problems solved** (one solution folder each on disk).
 
 | Topic | Solved |
 |-------|--------|
@@ -22,7 +22,8 @@ Rule: do not rush. For every problem, write down:
 | Dynamic Programming | 6 |
 | Graph Algorithms | 4 |
 | Tree Algorithms | 2 |
-| **Total** | **41** |
+| Range Queries | 1 |
+| **Total** | **42** |
 
 Every solved problem is checked off `[x]` in its phase section below.
 
@@ -195,7 +196,7 @@ Focus:
 
 ## Range Queries
 
-- [ ] Static Range Sum Queries
+- [x] Static Range Sum Queries
 - [ ] Static Range Minimum Queries
 - [ ] Dynamic Range Sum Queries
 - [ ] Dynamic Range Minimum Queries
