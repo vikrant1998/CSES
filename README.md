@@ -159,7 +159,7 @@ Focus:
 - [x] Labyrinth
 - [x] Building Roads
 - [x] Message Route
-- [ ] Building Teams
+- [x] Building Teams
 - [ ] Round Trip
 - [ ] Monsters
 - [ ] Shortest Routes I
