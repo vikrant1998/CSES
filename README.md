@@ -197,7 +197,7 @@ Focus:
 ## Range Queries
 
 - [x] Static Range Sum Queries
-- [ ] Static Range Minimum Queries
+- [x] Static Range Minimum Queries
 - [ ] Dynamic Range Sum Queries
 - [ ] Dynamic Range Minimum Queries
 - [ ] Range Xor Queries
