@@ -13,17 +13,17 @@ Rule: do not rush. For every problem, write down:
 
 ## Progress Summary
 
-**44 problems solved** (one solution folder each on disk).
+**45 problems solved** (one solution folder each on disk).
 
 | Topic | Solved |
 |-------|--------|
 | Introductory | 18 |
 | Sorting and Searching | 11 |
-| Dynamic Programming | 6 |
+| Dynamic Programming | 7 |
 | Graph Algorithms | 5 |
 | Tree Algorithms | 2 |
 | Range Queries | 2 |
-| **Total** | **44** |
+| **Total** | **45** |
 
 Every solved problem is checked off `[x]` in its phase section below.
 
@@ -120,7 +120,7 @@ Focus:
 - [x] Coin Combinations II
 - [x] Removing Digits
 - [x] Grid Paths I
-- [ ] Book Shop
+- [x] Book Shop
 - [ ] Array Description
 - [ ] Counting Towers
 - [ ] Edit Distance
