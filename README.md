@@ -13,17 +13,17 @@ Rule: do not rush. For every problem, write down:
 
 ## Progress Summary
 
-**50 problems solved** (one solution folder each on disk).
+**51 problems solved** (one solution folder each on disk).
 
 | Topic | Solved |
 |-------|--------|
 | Introductory | 18 |
 | Sorting and Searching | 14 |
-| Dynamic Programming | 9 |
+| Dynamic Programming | 10 |
 | Graph Algorithms | 5 |
 | Tree Algorithms | 2 |
 | Range Queries | 2 |
-| **Total** | **50** |
+| **Total** | **51** |
 
 Every solved problem is checked off `[x]` in its phase section below.
 
@@ -44,42 +44,42 @@ Focus:
 
 ## Introductory Problems
 
-- [x] Weird Algorithm
-- [x] Missing Number
-- [x] Repetitions
-- [x] Increasing Array
-- [x] Permutations
-- [x] Number Spiral
-- [x] Two Knights
-- [x] Two Sets
-- [x] Bit Strings
-- [x] Trailing Zeros
-- [x] Coin Piles
-- [x] Palindrome Reorder
-- [x] Gray Code
-- [x] Tower of Hanoi
-- [x] Creating Strings
-- [x] Apple Division
-- [x] Chessboard and Queens
+- [x] Weird Algorithm — 2026-05-28
+- [x] Missing Number — 2026-05-28
+- [x] Repetitions — 2026-05-28
+- [x] Increasing Array — 2026-05-28
+- [x] Permutations — 2026-05-28
+- [x] Number Spiral — 2026-05-29
+- [x] Two Knights — 2026-05-28
+- [x] Two Sets — 2026-05-29
+- [x] Bit Strings — 2026-05-28
+- [x] Trailing Zeros — 2026-05-28
+- [x] Coin Piles — 2026-05-31
+- [x] Palindrome Reorder — 2026-05-31
+- [x] Gray Code — 2026-06-02
+- [x] Tower of Hanoi — 2026-06-03
+- [x] Creating Strings — 2026-06-03
+- [x] Apple Division — 2026-06-05
+- [x] Chessboard and Queens — 2026-06-06
 - [ ] Digit Queries
-- [x] Grid Path Description
+- [x] Grid Path Description — 2026-06-06
 
 ## Sorting and Searching
 
-- [x] Distinct Numbers
-- [x] Sum of Two Values
-- [x] Maximum Subarray Sum
-- [x] Apartments
-- [x] Ferris Wheel
-- [x] Concert Tickets
-- [x] Restaurant Customers
-- [x] Movie Festival
-- [x] Stick Lengths
-- [x] Missing Coin Sum
-- [x] Collecting Numbers
-- [x] Collecting Numbers II
-- [x] Playlist
-- [x] Towers
+- [x] Distinct Numbers — 2026-05-28
+- [x] Sum of Two Values — 2026-05-30
+- [x] Maximum Subarray Sum — 2026-05-28
+- [x] Apartments — 2026-06-03
+- [x] Ferris Wheel — 2026-06-07
+- [x] Concert Tickets — 2026-06-07
+- [x] Restaurant Customers — 2026-06-09
+- [x] Movie Festival — 2026-06-10
+- [x] Stick Lengths — 2026-06-10
+- [x] Missing Coin Sum — 2026-06-11
+- [x] Collecting Numbers — 2026-06-11
+- [x] Collecting Numbers II — 2026-06-22
+- [x] Playlist — 2026-06-24
+- [x] Towers — 2026-06-28
 - [ ] Traffic Lights
 - [ ] Room Allocation
 - [ ] Factory Machines
@@ -114,22 +114,22 @@ Focus:
 
 ## Dynamic Programming Problems
 
-- [x] Dice Combinations
-- [x] Minimizing Coins
-- [x] Coin Combinations I
-- [x] Coin Combinations II
-- [x] Removing Digits
-- [x] Grid Paths I
-- [x] Book Shop
+- [x] Dice Combinations — 2026-05-28
+- [x] Minimizing Coins — 2026-06-12
+- [x] Coin Combinations I — 2026-06-13
+- [x] Coin Combinations II — 2026-06-15
+- [x] Removing Digits — 2026-06-15
+- [x] Grid Paths I — 2026-06-16
+- [x] Book Shop — 2026-06-20
 - [ ] Array Description
 - [ ] Counting Towers
-- [x] Edit Distance
-- [ ] Longest Common Subsequence
+- [x] Edit Distance — 2026-07-01
+- [x] Longest Common Subsequence — 2026-07-02
 - [ ] Rectangle Cutting
 - [ ] Money Sums
 - [ ] Removal Game
 - [ ] Two Sets II
-- [x] Increasing Subsequence
+- [x] Increasing Subsequence — 2026-07-01
 - [ ] Projects
 - [ ] Elevator Rides
 - [ ] Counting Tilings
@@ -155,11 +155,11 @@ Focus:
 
 ## Graph Algorithms Problems
 
-- [x] Counting Rooms
-- [x] Labyrinth
-- [x] Building Roads
-- [x] Message Route
-- [x] Building Teams
+- [x] Counting Rooms — 2026-05-30
+- [x] Labyrinth — 2026-05-30
+- [x] Building Roads — 2026-06-08
+- [x] Message Route — 2026-06-09
+- [x] Building Teams — 2026-06-20
 - [ ] Round Trip
 - [ ] Monsters
 - [ ] Shortest Routes I
@@ -196,8 +196,8 @@ Focus:
 
 ## Range Queries
 
-- [x] Static Range Sum Queries
-- [x] Static Range Minimum Queries
+- [x] Static Range Sum Queries — 2026-06-17
+- [x] Static Range Minimum Queries — 2026-06-20
 - [ ] Dynamic Range Sum Queries
 - [ ] Dynamic Range Minimum Queries
 - [ ] Range Xor Queries
@@ -214,8 +214,8 @@ Focus:
 ## Tree Algorithms
 
 - [ ] Tree Matching
-- [x] Subordinates
-- [x] Tree Diameter
+- [x] Subordinates — 2026-05-30
+- [x] Tree Diameter — 2026-05-31
 - [ ] Tree Distances I
 - [ ] Tree Distances II
 - [ ] Company Queries I
