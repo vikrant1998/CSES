@@ -13,17 +13,17 @@ Rule: do not rush. For every problem, write down:
 
 ## Progress Summary
 
-**51 problems solved** (one solution folder each on disk).
+**52 problems solved** (one solution folder each on disk).
 
 | Topic | Solved |
 |-------|--------|
 | Introductory | 18 |
-| Sorting and Searching | 14 |
+| Sorting and Searching | 15 |
 | Dynamic Programming | 10 |
 | Graph Algorithms | 5 |
 | Tree Algorithms | 2 |
 | Range Queries | 2 |
-| **Total** | **51** |
+| **Total** | **52** |
 
 Every solved problem is checked off `[x]` in its phase section below.
 
@@ -80,7 +80,7 @@ Focus:
 - [x] Collecting Numbers II — 2026-06-22
 - [x] Playlist — 2026-06-24
 - [x] Towers — 2026-06-28
-- [ ] Traffic Lights
+- [x] Traffic Lights — 2026-07-02
 - [ ] Room Allocation
 - [ ] Factory Machines
 - [ ] Tasks and Deadlines
