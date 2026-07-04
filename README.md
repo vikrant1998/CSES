@@ -163,7 +163,7 @@ Focus:
 - [x] Round Trip — 2026-07-04
 - [ ] Monsters
 - [x] Shortest Routes I — 2026-07-04
-- [ ] Shortest Routes II
+- [x] Shortest Routes II — 2026-07-04
 - [ ] High Score
 - [ ] Flight Discount
 - [ ] Cycle Finding
