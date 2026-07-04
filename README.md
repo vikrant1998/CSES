@@ -164,7 +164,7 @@ Focus:
 - [ ] Monsters
 - [x] Shortest Routes I — 2026-07-04
 - [x] Shortest Routes II — 2026-07-04
-- [ ] High Score
+- [x] High Score — 2026-07-04
 - [ ] Flight Discount
 - [ ] Cycle Finding
 - [ ] Flight Routes
