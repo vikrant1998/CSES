@@ -13,17 +13,17 @@ Rule: do not rush. For every problem, write down:
 
 ## Progress Summary
 
-**54 problems solved** (one solution folder each on disk).
+**56 problems solved** (one solution folder each on disk).
 
 | Topic | Solved |
 |-------|--------|
 | Introductory | 18 |
 | Sorting and Searching | 15 |
 | Dynamic Programming | 10 |
-| Graph Algorithms | 7 |
+| Graph Algorithms | 9 |
 | Tree Algorithms | 2 |
 | Range Queries | 2 |
-| **Total** | **54** |
+| **Total** | **56** |
 
 Every solved problem is checked off `[x]` in its phase section below.
 
