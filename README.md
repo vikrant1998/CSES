@@ -13,17 +13,17 @@ Rule: do not rush. For every problem, write down:
 
 ## Progress Summary
 
-**56 problems solved** (one solution folder each on disk).
+**57 problems solved** (one solution folder each on disk).
 
 | Topic | Solved |
 |-------|--------|
 | Introductory | 18 |
 | Sorting and Searching | 15 |
 | Dynamic Programming | 10 |
-| Graph Algorithms | 9 |
+| Graph Algorithms | 10 |
 | Tree Algorithms | 2 |
 | Range Queries | 2 |
-| **Total** | **56** |
+| **Total** | **57** |
 
 Every solved problem is checked off `[x]` in its phase section below.
 
@@ -161,7 +161,7 @@ Focus:
 - [x] Message Route — 2026-06-09
 - [x] Building Teams — 2026-06-20
 - [x] Round Trip — 2026-07-04
-- [ ] Monsters
+- [x] Monsters — 2026-07-07
 - [x] Shortest Routes I — 2026-07-04
 - [x] Shortest Routes II — 2026-07-04
 - [x] High Score — 2026-07-04
