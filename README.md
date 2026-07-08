@@ -165,7 +165,7 @@ Focus:
 - [x] Shortest Routes I — 2026-07-04
 - [x] Shortest Routes II — 2026-07-04
 - [x] High Score — 2026-07-04
-- [ ] Flight Discount
+- [x] Flight Discount — 2026-07-08
 - [ ] Cycle Finding
 - [ ] Flight Routes
 - [ ] Round Trip II
