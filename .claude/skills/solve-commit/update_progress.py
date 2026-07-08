@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 """Recompute every progress table from the checkboxes that are the source of truth.
 
-Counts `- [x]` / `- [ ]` lines under each track README's problem sections, then
-rewrites that README's summary table and the root README's roll-up in place.
+Counts `- [x]` lines under each track README's problem sections, then rewrites
+that README's summary table and the root README's roll-up in place.
+
+Tables are solved-only: no denominators, no percentages. Neither track has a
+fixed finish line worth tracking against -- the CSES problem set is far larger
+than the sections listed here, and both lists grow.
 
 Only the sections listed in TRACKS count. CSES/README.md also carries an
 Interview Topic Checklist, String Algorithms, and a Weekly Schedule whose
@@ -145,15 +149,9 @@ def render(paths: dict[Path, str]) -> dict[Path, str]:
         total = sum(t for _, t in counts.values())
         totals[track] = (done, total)
 
-        has_total_col = "| Topic | Solved | Total |" in text
         for label, heading in sections:
-            d, t = counts[heading]
-            text = replace_row(text, label, f"{d} | {t}" if has_total_col else str(d))
-        text = replace_row(
-            text,
-            "**Total**",
-            f"**{done}** | **{total}**" if has_total_col else f"**{done}**",
-        )
+            text = replace_row(text, label, str(counts[heading][0]))
+        text = replace_row(text, "**Total**", f"**{done}**")
 
         # The prose line above the table, e.g. "**58 problems solved**".
         text = re.sub(
@@ -169,35 +167,29 @@ def render(paths: dict[Path, str]) -> dict[Path, str]:
     root = REPO / "README.md"
     text = out[root]
     for track, (rel, _) in TRACKS.items():
-        done, total = totals[track]
+        done, _ = totals[track]
         link = f"[{track}]({rel})" if track != "CSES" else f"[CSES Problem Set]({rel})"
-        text = replace_row(text, link, f"{done} | {total} | {pct(done, total)}")
+        text = replace_row(text, link, str(done))
 
     cd = sum(d for d, _ in totals.values())
-    ct = sum(t for _, t in totals.values())
-    text = replace_row(text, "**Combined**", f"**{cd}** | **{ct}** | **{pct(cd, ct)}**")
+    text = replace_row(text, "**Combined**", f"**{cd}**")
 
     # Root per-topic tables mirror each track's. Each lives under its own
     # `## [Track](path)` heading and has its own **Total** row, so scope the
     # rewrite to that section -- a bare replace_row would hit the wrong table.
     for track, (rel, sections) in TRACKS.items():
         counts = count_sections(REPO / rel, sections)
-        done, total = totals[track]
+        done, _ = totals[track]
 
-        def rewrite(body: str, sections=sections, counts=counts, done=done, total=total) -> str:
+        def rewrite(body: str, sections=sections, counts=counts, done=done) -> str:
             for label, heading in sections:
-                d, t = counts[heading]
-                body = replace_row(body, label, f"{d} | {t}")
-            return replace_row(body, "**Total**", f"**{done}** | **{total}**")
+                body = replace_row(body, label, str(counts[heading][0]))
+            return replace_row(body, "**Total**", f"**{done}**")
 
         text = within_section(text, f"[{track}]({rel})", rewrite)
 
     out[root] = text
     return out
-
-
-def pct(done: int, total: int) -> str:
-    return f"{round(100 * done / total) if total else 0}%"
 
 
 def main() -> int:

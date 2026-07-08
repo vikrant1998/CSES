@@ -63,9 +63,20 @@ Use `--check` to see what would change without writing (exits 1 if anything is
 stale). If it errors with *"no checkboxes under: X"*, a section heading was
 renamed; fix the heading or update `TRACKS` in the script.
 
-Only the six CSES problem sections count. The CSES README's Interview Topic
+Counts are solved-only — no denominators, no percentages. Neither list has a
+finish line worth tracking against, so don't reintroduce a Total column.
+
+Only the sections named in `TRACKS` count. The CSES README's Interview Topic
 Checklist, String Algorithms, and Weekly Schedule contain checkboxes that are
-not solved problems, so CSES's denominator is 117, not 214.
+not solved problems, and are excluded.
+
+## Solving a problem that isn't listed yet
+
+Both lists grow. If the problem has no checklist line, add it as `- [x] Name —
+YYYY-MM-DD` under the right topic section, then run step 3 normally — the count
+picks it up. A brand-new topic section also needs an entry in `TRACKS` in the
+script and a matching row in both that track's summary table and the root
+per-topic table, or its problems go uncounted.
 
 ## 4. Stage
 

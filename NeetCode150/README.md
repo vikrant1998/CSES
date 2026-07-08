@@ -15,27 +15,27 @@ Rule: do not rush. For every problem, write down:
 
 **1 problem solved** (one solution folder each on disk).
 
-| Topic | Solved | Total |
-|-------|--------|-------|
-| Arrays & Hashing | 1 | 9 |
-| Two Pointers | 0 | 5 |
-| Sliding Window | 0 | 6 |
-| Stack | 0 | 7 |
-| Binary Search | 0 | 7 |
-| Linked List | 0 | 11 |
-| Trees | 0 | 15 |
-| Tries | 0 | 3 |
-| Heap / Priority Queue | 0 | 7 |
-| Backtracking | 0 | 9 |
-| Graphs | 0 | 13 |
-| Advanced Graphs | 0 | 6 |
-| 1-D Dynamic Programming | 0 | 12 |
-| 2-D Dynamic Programming | 0 | 11 |
-| Greedy | 0 | 8 |
-| Intervals | 0 | 6 |
-| Math & Geometry | 0 | 8 |
-| Bit Manipulation | 0 | 7 |
-| **Total** | **1** | **150** |
+| Topic | Solved |
+|-------|--------|
+| Arrays & Hashing | 1 |
+| Two Pointers | 0 |
+| Sliding Window | 0 |
+| Stack | 0 |
+| Binary Search | 0 |
+| Linked List | 0 |
+| Trees | 0 |
+| Tries | 0 |
+| Heap / Priority Queue | 0 |
+| Backtracking | 0 |
+| Graphs | 0 |
+| Advanced Graphs | 0 |
+| 1-D Dynamic Programming | 0 |
+| 2-D Dynamic Programming | 0 |
+| Greedy | 0 |
+| Intervals | 0 |
+| Math & Geometry | 0 |
+| Bit Manipulation | 0 |
+| **Total** | **1** |
 
 Every solved problem is checked off `[x]` in its section below.
 

@@ -13,11 +13,11 @@ For every problem, write down:
 
 ## Overall Progress
 
-| Track | Solved | Total | Progress |
-|-------|--------|-------|----------|
-| [CSES Problem Set](CSES/README.md) | 58 | 117 | 50% |
-| [NeetCode 150](NeetCode150/README.md) | 1 | 150 | 1% |
-| **Combined** | **59** | **267** | **22%** |
+| Track | Solved |
+|-------|--------|
+| [CSES Problem Set](CSES/README.md) | 58 |
+| [NeetCode 150](NeetCode150/README.md) | 1 |
+| **Combined** | **59** |
 
 ---
 
@@ -25,18 +25,18 @@ For every problem, write down:
 
 Main resource: [CSES Problem Set](https://cses.fi/problemset/)
 
-| Topic | Solved | Total |
-|-------|--------|-------|
-| Introductory | 18 | 19 |
-| Sorting and Searching | 15 | 28 |
-| Dynamic Programming | 10 | 20 |
-| Graph Algorithms | 11 | 22 |
-| Tree Algorithms | 2 | 14 |
-| Range Queries | 2 | 14 |
-| **Total** | **58** | **117** |
+| Topic | Solved |
+|-------|--------|
+| Introductory | 18 |
+| Sorting and Searching | 15 |
+| Dynamic Programming | 10 |
+| Graph Algorithms | 11 |
+| Tree Algorithms | 2 |
+| Range Queries | 2 |
+| **Total** | **58** |
 
 The CSES README also carries an Interview Topic Checklist, String Algorithms,
-and a Weekly Schedule; those aren't problem counts and are excluded here.
+and a Weekly Schedule; those aren't solved problems and are excluded here.
 
 ---
 
@@ -44,27 +44,27 @@ and a Weekly Schedule; those aren't problem counts and are excluded here.
 
 Main resource: [NeetCode 150](https://neetcode.io/practice)
 
-| Topic | Solved | Total |
-|-------|--------|-------|
-| Arrays & Hashing | 1 | 9 |
-| Two Pointers | 0 | 5 |
-| Sliding Window | 0 | 6 |
-| Stack | 0 | 7 |
-| Binary Search | 0 | 7 |
-| Linked List | 0 | 11 |
-| Trees | 0 | 15 |
-| Tries | 0 | 3 |
-| Heap / Priority Queue | 0 | 7 |
-| Backtracking | 0 | 9 |
-| Graphs | 0 | 13 |
-| Advanced Graphs | 0 | 6 |
-| 1-D Dynamic Programming | 0 | 12 |
-| 2-D Dynamic Programming | 0 | 11 |
-| Greedy | 0 | 8 |
-| Intervals | 0 | 6 |
-| Math & Geometry | 0 | 8 |
-| Bit Manipulation | 0 | 7 |
-| **Total** | **1** | **150** |
+| Topic | Solved |
+|-------|--------|
+| Arrays & Hashing | 1 |
+| Two Pointers | 0 |
+| Sliding Window | 0 |
+| Stack | 0 |
+| Binary Search | 0 |
+| Linked List | 0 |
+| Trees | 0 |
+| Tries | 0 |
+| Heap / Priority Queue | 0 |
+| Backtracking | 0 |
+| Graphs | 0 |
+| Advanced Graphs | 0 |
+| 1-D Dynamic Programming | 0 |
+| 2-D Dynamic Programming | 0 |
+| Greedy | 0 |
+| Intervals | 0 |
+| Math & Geometry | 0 |
+| Bit Manipulation | 0 |
+| **Total** | **1** |
 
 ---
 
@@ -75,7 +75,10 @@ CSES/          # solutions grouped by topic, README.md is the checklist
 NeetCode150/   # one folder per problem, README.md is the checklist
 ```
 
-Each track has a directory-scoped `solve-commit` skill under `.claude/skills/`
-that marks a problem complete in that track's README, commits, and pushes.
+A repo-wide `solve-commit` skill under `.claude/skills/` marks a problem
+complete in its track's README, regenerates every count above from the
+checkboxes, commits, and pushes.
+
 Per-problem checkboxes and dates live in the track READMEs; this file only
-carries the roll-up counts.
+carries the roll-up counts. Counts are solved-only — there's no fixed target
+to finish, just more problems.
