@@ -116,8 +116,9 @@ Remote is `origin` on `main`. If push is rejected for being behind, `git pull
 --rebase` then push again — never force-push.
 
 ## Notes
-- Committing and pushing are pre-authorized by this workflow; no need to re-ask
-  each time the user invokes it.
+- Committing and pushing are pre-authorized; no need to re-ask. This holds for
+  any commit in this repo, not just solves — scaffolding, skill edits, and
+  refactors get pushed too. Never leave commits sitting unpushed.
 - The repo lives on a case-insensitive filesystem with `core.ignorecase=true`.
   The tracked directory is `NeetCode150/` (capital C). If `git status` ever
   shows a path with different casing, fix it with a two-step `git mv` rather
