@@ -13,17 +13,17 @@ Rule: do not rush. For every problem, write down:
 
 ## Progress Summary
 
-**59 problems solved** (one solution folder each on disk).
+**60 problems solved** (one solution folder each on disk).
 
 | Topic | Solved |
 |-------|--------|
 | Introductory | 18 |
 | Sorting and Searching | 15 |
 | Dynamic Programming | 10 |
-| Graph Algorithms | 12 |
+| Graph Algorithms | 13 |
 | Tree Algorithms | 2 |
 | Range Queries | 2 |
-| **Total** | **59** |
+| **Total** | **60** |
 
 Every solved problem is checked off `[x]` in its phase section below. Counts are
 solved-only — there's no fixed target to finish, just more problems.
@@ -185,7 +185,7 @@ Focus:
 - [x] High Score — 2026-07-04
 - [x] Flight Discount — 2026-07-08
 - [x] Cycle Finding — 2026-07-08
-- [ ] Flight Routes
+- [x] Flight Routes — 2026-07-08
 - [ ] Round Trip II
 - [ ] Course Schedule
 - [ ] Longest Flight Route
