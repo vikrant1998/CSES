@@ -13,7 +13,7 @@ Rule: do not rush. For every problem, write down:
 
 ## Progress Summary
 
-**60 problems solved** (one solution folder each on disk).
+**61 problems solved** (one solution folder each on disk).
 
 | Topic | Solved |
 |-------|--------|
@@ -23,7 +23,8 @@ Rule: do not rush. For every problem, write down:
 | Graph Algorithms | 13 |
 | Tree Algorithms | 2 |
 | Range Queries | 2 |
-| **Total** | **60** |
+| String Algorithms | 1 |
+| **Total** | **61** |
 
 Every solved problem is checked off `[x]` in its phase section below. Counts are
 solved-only — there's no fixed target to finish, just more problems.
@@ -264,7 +265,7 @@ Important: come back to `Word Combinations` here, not earlier.
 
 ## String Algorithms
 
-- [ ] String Matching
+- [x] String Matching — 2026-07-08
 - [ ] Finding Borders
 - [ ] Finding Periods
 - [ ] Minimal Rotation
