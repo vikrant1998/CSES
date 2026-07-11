@@ -20,7 +20,7 @@ Rule: do not rush. For every problem, write down:
 | Introductory | 18 |
 | Sorting and Searching | 15 |
 | Dynamic Programming | 10 |
-| Graph Algorithms | 13 |
+| Graph Algorithms | 14 |
 | Tree Algorithms | 2 |
 | Range Queries | 2 |
 | String Algorithms | 1 |
@@ -188,7 +188,7 @@ Focus:
 - [x] Cycle Finding — 2026-07-08
 - [x] Flight Routes — 2026-07-08
 - [ ] Round Trip II
-- [ ] Course Schedule
+- [x] Course Schedule — 2026-07-11
 - [ ] Longest Flight Route
 - [ ] Game Routes
 - [ ] Investigation
