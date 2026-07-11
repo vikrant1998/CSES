@@ -41,6 +41,7 @@ SECTIONS: list[tuple[str, str]] = [
     ("Graph Algorithms", "Graph Algorithms Problems"),
     ("Tree Algorithms", "Tree Algorithms"),
     ("Range Queries", "Range Queries"),
+    ("String Algorithms", "String Algorithms"),
 ]
 
 DONE = re.compile(r"^- \[x\] ", re.I)

@@ -13,7 +13,7 @@ Rule: do not rush. For every problem, write down:
 
 ## Progress Summary
 
-**61 problems solved** (one solution folder each on disk).
+**62 problems solved** (one solution folder each on disk).
 
 | Topic | Solved |
 |-------|--------|
@@ -24,7 +24,7 @@ Rule: do not rush. For every problem, write down:
 | Tree Algorithms | 2 |
 | Range Queries | 2 |
 | String Algorithms | 1 |
-| **Total** | **61** |
+| **Total** | **62** |
 
 Every solved problem is checked off `[x]` in its phase section below. Counts are
 solved-only — there's no fixed target to finish, just more problems.
