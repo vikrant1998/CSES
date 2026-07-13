@@ -13,18 +13,18 @@ Rule: do not rush. For every problem, write down:
 
 ## Progress Summary
 
-**65 problems solved** (one solution folder each on disk).
+**66 problems solved** (one solution folder each on disk).
 
 | Topic | Solved |
 |-------|--------|
 | Introductory | 18 |
-| Sorting and Searching | 18 |
+| Sorting and Searching | 19 |
 | Dynamic Programming | 10 |
 | Graph Algorithms | 14 |
 | Tree Algorithms | 2 |
 | Range Queries | 2 |
 | String Algorithms | 1 |
-| **Total** | **65** |
+| **Total** | **66** |
 
 Every solved problem is checked off `[x]` in its phase section below. Counts are
 solved-only — there's no fixed target to finish, just more problems.
@@ -107,7 +107,7 @@ Focus:
 - [ ] Factory Machines
 - [ ] Tasks and Deadlines
 - [ ] Reading Books
-- [ ] Sum of Three Values
+- [x] Sum of Three Values — 2026-07-13
 - [ ] Sum of Four Values
 - [ ] Nearest Smaller Values
 - [ ] Subarray Sums I
