@@ -13,18 +13,18 @@ Rule: do not rush. For every problem, write down:
 
 ## Progress Summary
 
-**67 problems solved** (one solution folder each on disk).
+**68 problems solved** (one solution folder each on disk).
 
 | Topic | Solved |
 |-------|--------|
-| Introductory | 18 |
+| Introductory | 19 |
 | Sorting and Searching | 20 |
 | Dynamic Programming | 10 |
 | Graph Algorithms | 14 |
 | Tree Algorithms | 2 |
 | Range Queries | 2 |
 | String Algorithms | 1 |
-| **Total** | **67** |
+| **Total** | **68** |
 
 Every solved problem is checked off `[x]` in its phase section below. Counts are
 solved-only — there's no fixed target to finish, just more problems.
@@ -80,7 +80,7 @@ Focus:
 - [x] Creating Strings — 2026-06-03
 - [x] Apple Division — 2026-06-05
 - [x] Chessboard and Queens — 2026-06-06
-- [ ] Digit Queries
+- [x] Digit Queries — 2026-07-14
 - [x] Grid Path Description — 2026-06-06
 
 ## Sorting and Searching
