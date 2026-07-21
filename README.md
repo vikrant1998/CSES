@@ -13,7 +13,7 @@ Rule: do not rush. For every problem, write down:
 
 ## Progress Summary
 
-**69 problems solved** (one solution folder each on disk).
+**70 problems solved** (one solution folder each on disk).
 
 | Topic | Solved |
 |-------|--------|
@@ -21,10 +21,10 @@ Rule: do not rush. For every problem, write down:
 | Sorting and Searching | 20 |
 | Dynamic Programming | 10 |
 | Graph Algorithms | 14 |
-| Tree Algorithms | 3 |
+| Tree Algorithms | 4 |
 | Range Queries | 2 |
 | String Algorithms | 1 |
-| **Total** | **69** |
+| **Total** | **70** |
 
 Every solved problem is checked off `[x]` in its phase section below. Counts are
 solved-only — there's no fixed target to finish, just more problems.
@@ -238,7 +238,7 @@ Focus:
 - [x] Tree Matching — 2026-07-18
 - [x] Subordinates — 2026-05-30
 - [x] Tree Diameter — 2026-05-31
-- [ ] Tree Distances I
+- [x] Tree Distances I — 2026-07-20
 - [ ] Tree Distances II
 - [ ] Company Queries I
 - [ ] Company Queries II
