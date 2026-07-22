@@ -59,7 +59,6 @@ After each newly detected submission, reassess readiness from the actual cumulat
 - Write-up backlog: approximately 11-13 problems; flag it on every check until updated.
 - NeetCode Tries: 0/3 and repeatedly skipped; call this out on every check until it changes.
 - Distinct Values: re-solve window around 2026-07-25 through 2026-07-28.
-- Tree Distances I: parked mid-attempt.
 - Find Duplicate Integer: solved using O(n) space; O(1) Floyd cycle-detection redo remains pending.
 
 These items are manually tracked context, not verified solve counts. Do not silently mark them complete. Update them only from an explicit user statement or clear repository evidence.
@@ -74,9 +73,9 @@ These items are manually tracked context, not verified solve counts. Do not sile
 
 This snapshot is historical context only. Refresh both repositories before presenting current progress.
 
-- Verified: 2026-07-18
-- Challenge day: 52
-- CSES README total: 68
-- NeetCode: 42
-- Combined: 110
-- CSES breakdown: Introductory 19, Sorting and Searching 20, Dynamic Programming 10, Graph Algorithms 14, Tree Algorithms 2, Range Queries 2, String Algorithms 1
+- Verified: 2026-07-20
+- Challenge day: 54
+- CSES README total: 70
+- NeetCode: 50
+- Combined: 120
+- CSES breakdown: Introductory 19, Sorting and Searching 20, Dynamic Programming 10, Graph Algorithms 14, Tree Algorithms 4, Range Queries 2, String Algorithms 1
