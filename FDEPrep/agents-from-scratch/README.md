@@ -3,7 +3,9 @@
 Review notes for the `langchain-ai/agents-from-scratch` walkthrough.
 
 - Started: 2026-07-22
-- Current estimated curriculum coverage: 51%
+- Conceptual curriculum completed: 2026-07-23
+- Current estimated curriculum coverage: 100%
+- Applied execution status: not verified
 - Local repository: `/Users/viksat98/agents-from-scratch`
 - Source: <https://github.com/langchain-ai/agents-from-scratch>
 
@@ -287,6 +289,72 @@ GPT + bound tools  -> propose actions
 
 **Review:** Correct. OAuth permissions should match the minimum capabilities required by the workload.
 
+### 37. Why does a Gmail reply need both a message ID and a thread ID?
+
+**Your answer:** The specific email and the entire thread both need to be known.
+
+**Review:** Correct. The message ID identifies exactly what is being answered; the thread ID keeps the outgoing reply in the correct conversation.
+
+### 38. Why must calendar lookup fail explicitly instead of returning mock availability?
+
+**Your answer:** Otherwise the system might schedule events during times that are not actually free.
+
+**Review:** Correct. Realistic-looking fallback data can be mistaken for verified external state and cause a confident, harmful action.
+
+### 39. What happens when scheduling silently uses the wrong timezone?
+
+**Your answer:** The event is scheduled at the wrong time.
+
+**Review:** Correct. Timezone is part of the data contract and must remain explicit through lookup, comparison, approval, and event creation.
+
+### 40. Why use an overlapping Gmail polling window?
+
+**Your answer:** If one poll fails, a later poll can recover the missed email.
+
+**Review:** Correct. Atomic message-ID deduplication is what makes that intentional overlap safe.
+
+### 41. Why does “100 runs created” not mean 100 emails were handled successfully?
+
+**Your answer:** The runs may only have started and can fail anywhere later in the workflow.
+
+**Review:** Correct. Accepted, interrupted, completed, failed, and externally committed are distinct lifecycle states.
+
+### 42. Which identifier changes when the same workflow retries?
+
+**Your answer:** The graph run ID.
+
+**Review:** Correct. The incoming Gmail message ID and logical action idempotency key remain stable; a new attempt receives a new run ID.
+
+### 43. Why test real Google APIs with a separate account first?
+
+**Your answer:** It provides a non-production environment where incorrect recipients, content, or behavior have limited impact.
+
+**Review:** Correct. The test account should also use minimal OAuth scopes and controlled data.
+
+### 44. How should the system handle two pollers and a calendar failure?
+
+**Your answer:** One worker claims the message, calendar failure is explicit and retryable with a limit, no meeting is scheduled, and monitoring records the failure point.
+
+**Review:** Correct. The refinement is that an atomic Gmail message-ID claim deduplicates incoming work, while an idempotency key protects a later external action.
+
+### 45. What is the difference between the Python graph and LangGraph server?
+
+**Your answer:** The Python graph defines workflow behavior; LangGraph server is the runtime that runs it.
+
+**Review:** Correct. The server adds thread, run, persistence, streaming, and interrupt-resume APIs around the compiled workflow.
+
+### 46. Which interface should a support operator use to approve customer emails?
+
+**Your answer:** Agent Inbox.
+
+**Review:** Correct. Agent Inbox provides constrained operational review without exposing developer graph internals.
+
+### 47. Which actions require separate approval in the final meeting workflow?
+
+**Your answer:** The meeting time and the response text.
+
+**Review:** Correct. Meeting attendees, duration, time, and timezone must be approved before calendar creation. Recipient and response text must be approved before sending.
+
 ## RAG Placement
 
 This repository does not implement a complete RAG pipeline. It only mentions semantic search as an optional memory-store capability. A full system still needs document ingestion, chunking, embeddings, vector indexing, retrieval, grounding, and citations.
@@ -368,11 +436,21 @@ Pytest runs assertions. LangSmith stores traces and compares experiments. Regres
 - Remember that schema validity does not establish semantic correctness.
 - Preserve message and tool-call IDs when editing recorded actions.
 
+## Applied Evidence
+
+Conceptual completion does not establish that the repository has been executed successfully. The following remain unverified:
+
+- [ ] Local test suite
+- [ ] Local LangGraph server and interrupt-resume flow
+- [ ] Cross-thread memory behavior
+- [ ] Gmail and Calendar integration with a test account
+- [ ] Independent agent extension or production deployment
+
 ## Next Session
 
-Continue the Gmail integration and deployment material:
+Begin the saved AI FDE retrieval path:
 
-1. Trace Gmail reply construction and thread preservation.
-2. Review calendar-tool execution and approval behavior.
-3. Cover cron ingestion and deployment boundaries.
-4. Finish the repository and connect a retrieval tool conceptually.
+1. Review `ai-system-design-guide/00-interview-prep`.
+2. Study `ai-system-design-guide/06-retrieval-systems`.
+3. Build a small document-ingestion and retrieval pipeline.
+4. Expose retrieval as a tool in the completed agent architecture.

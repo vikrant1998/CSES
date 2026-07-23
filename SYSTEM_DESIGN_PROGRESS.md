@@ -110,7 +110,7 @@ Reading is not sufficient evidence of FDE readiness. Pair the curriculum with pr
 - Repository: `https://github.com/langchain-ai/agents-from-scratch`
 - Local checkout: `/Users/viksat98/agents-from-scratch`
 - Last reviewed: 2026-07-23
-- Estimated curriculum coverage: 77%
+- Estimated curriculum coverage: 100%
 
 #### Covered
 
@@ -146,6 +146,17 @@ Reading is not sufficient evidence of FDE readiness. Pair the curriculum with pr
 - [x] Gmail thread continuity, message-level deduplication, and atomic ingestion claims
 - [x] Stable operation-level idempotency keys and the distinction from ingestion deduplication
 - [x] OAuth scopes, least privilege, and keeping credentials outside model context
+- [x] Gmail reply construction using the source message ID and conversation thread ID
+- [x] Calendar read-versus-write boundaries and fail-closed behavior when availability lookup fails
+- [x] Timezone-aware calendar queries, comparisons, scheduling, and approval display
+- [x] Scheduled Gmail polling, overlapping recovery windows, and deployment secret boundaries
+- [x] Run lifecycle observability: created, running, interrupted, completed, failed, and external-action outcomes
+- [x] Correlation across Gmail message/thread IDs, graph thread/run IDs, tool-call IDs, and idempotency keys
+- [x] End-to-end Gmail failure handling across atomic claims, explicit dependency errors, bounded retries, and monitoring
+- [x] Compiled graph behavior versus LangGraph server runtime responsibilities
+- [x] Developer debugging in Studio versus operational approvals in Agent Inbox and evaluation in LangSmith
+- [x] Layered deployment validation from mocks through failure injection, test accounts, and constrained rollout
+- [x] End-to-end trace audit requiring approval before each consequential calendar and email action
 
 #### Demonstrated Understanding
 
@@ -172,6 +183,17 @@ Reading is not sufficient evidence of FDE readiness. Pair the curriculum with pr
 - Understands how concurrent pollers can both process one message when check-and-insert is not atomic
 - Understands why retries of one logical external action must reuse the same idempotency key
 - Understands why read-only workloads should not receive Gmail modification permissions
+- Can distinguish the specific Gmail message being answered from the thread that preserves conversation continuity
+- Understands why production integrations must not substitute realistic mock availability after a real API failure
+- Understands why trusted user timezone must be explicit throughout calendar lookup and event creation
+- Understands how overlapping polling windows recover missed runs while atomic deduplication prevents duplicate processing
+- Understands why accepted graph runs do not establish completed workflows or successful external effects
+- Can identify which IDs remain stable for one logical operation and which change for a new processing attempt
+- Can explain why calendar failure must block scheduling, remain observable, and use bounded retries without duplicating incoming work
+- Can distinguish workflow declarations from the server that manages threads, runs, persistence, and interrupts
+- Can select Agent Inbox for constrained human review without exposing developer graph internals
+- Understands why real API validation begins with isolated accounts and minimal permissions before production access
+- Can identify separate approval boundaries for meeting creation and outbound email content
 
 #### Reinforce
 
@@ -182,11 +204,19 @@ Reading is not sufficient evidence of FDE readiness. Pair the curriculum with pr
 
 #### Remaining
 
-- [ ] Finish and test the basic email agent (architecture covered; execution remains)
+- [x] Basic email-agent architecture and trace-audit curriculum
 - [x] Evaluation module concepts and test-dataset workflow
 - [x] Human-in-the-loop module concepts (local execution/testing remains optional practice)
 - [x] Memory and persistence module concepts (production implementation remains applied practice)
-- [ ] Gmail integration and deployment
+- [x] Gmail integration and deployment concepts (credentialed execution remains applied practice)
+
+#### Applied Evidence
+
+- [ ] Local test-suite execution verified
+- [ ] Local LangGraph server and interrupt-resume flow verified
+- [ ] Cross-thread memory behavior verified
+- [ ] Gmail and Calendar test-account integration verified
+- [ ] Production deployment or independent extension implemented
 
 Update this section only from completed work or concepts demonstrated during the walkthrough. Keep exposure, demonstrated understanding, and applied project evidence separate.
 
