@@ -25,6 +25,7 @@ Never use self-reported, remembered, or previously summarized solve counts when 
 
 - Repository: `https://github.com/vikrant1998/CSES`
 - Fetch the raw README from `https://raw.githubusercontent.com/vikrant1998/CSES/main/README.md?nocache=<timestamp>`.
+- When checking immediately after a reported push, compare `refs/heads/main` and use a fresh shallow clone if the raw README endpoint has not caught up.
 - Count `- [x]` and `- [ ]` checkboxes within each problem section.
 - Use the solve dates appended as `— YYYY-MM-DD` when reporting recent activity.
 - The six core sections contain 120 problems: Introductory, Sorting and Searching, Dynamic Programming, Graph Algorithms, Tree Algorithms, and Range Queries.
@@ -57,7 +58,7 @@ After each newly detected submission, reassess readiness from the actual cumulat
 ## Open Tracking Items
 
 - Write-up backlog: approximately 11-13 problems; flag it on every check until updated.
-- NeetCode Tries: 0/3 and repeatedly skipped; call this out on every check until it changes.
+- NeetCode Tries: 1/3; Implement Prefix Tree is complete, with Design Add and Search Words and Word Search II remaining.
 - Distinct Values: re-solve window around 2026-07-25 through 2026-07-28.
 - Find Duplicate Integer: solved using O(n) space; O(1) Floyd cycle-detection redo remains pending.
 
@@ -73,9 +74,9 @@ These items are manually tracked context, not verified solve counts. Do not sile
 
 This snapshot is historical context only. Refresh both repositories before presenting current progress.
 
-- Verified: 2026-07-20
-- Challenge day: 54
-- CSES README total: 70
-- NeetCode: 50
-- Combined: 120
-- CSES breakdown: Introductory 19, Sorting and Searching 20, Dynamic Programming 10, Graph Algorithms 14, Tree Algorithms 4, Range Queries 2, String Algorithms 1
+- Verified: 2026-07-22
+- Challenge day: 56
+- CSES README total: 71
+- NeetCode: 53
+- Combined: 124
+- CSES breakdown: Introductory 19, Sorting and Searching 21, Dynamic Programming 10, Graph Algorithms 14, Tree Algorithms 4, Range Queries 2, String Algorithms 1
