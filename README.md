@@ -11,6 +11,42 @@ Rule: do not rush. For every problem, write down:
 
 ---
 
+## Google FDE Preparation Hub
+
+Despite the repository name, this is the central progress hub for Google FDE
+preparation. The goal is FDE readiness with Google SDE-level coding ability.
+
+### Sources of Truth
+
+| Track | Source of truth | What it measures |
+|---|---|---|
+| CSES | This README's phase checkboxes | Core algorithms and competitive-programming implementation |
+| NeetCode 150 | [`vikrant1998/neetcode-submissions`](https://github.com/vikrant1998/neetcode-submissions) | Interview-style problem coverage; count live problem directories |
+| Hello Interview | [`SYSTEM_DESIGN_PROGRESS.md`](SYSTEM_DESIGN_PROGRESS.md) | Readings, independent designs, and mocks tracked separately |
+| AI system design | [`SYSTEM_DESIGN_PROGRESS.md`](SYSTEM_DESIGN_PROGRESS.md) | Ordered FDE curriculum from `ai-system-design-guide` |
+| Practical AI agents | [`SYSTEM_DESIGN_PROGRESS.md`](SYSTEM_DESIGN_PROGRESS.md) | Curriculum checkpoints and applied evidence |
+| Agent review notes | [`FDEPrep/agents-from-scratch/README.md`](FDEPrep/agents-from-scratch/README.md) | Questions, corrections, architecture summaries, and reinforcement topics |
+
+For any progress or readiness assessment, read [`AGENTS.md`](AGENTS.md) first
+and refresh the live CSES and NeetCode sources. Do not use the static Interview
+Topic Checklist later in this README as the NeetCode completion count.
+
+### Last Verified FDE Snapshot
+
+Verified 2026-07-23, challenge day 57:
+
+- CSES: 70/120 core problems, plus 1/13 String Algorithms
+- NeetCode: 54/150
+- Combined coding total: 125
+- Hello Interview: 2/30 readings, 0 independent designs, 0 mocks
+- AI FDE supporting curriculum: 0/11
+- `agents-from-scratch`: 100% conceptual curriculum; applied execution deferred
+
+This snapshot is historical context. Refresh the linked sources before reporting
+current progress.
+
+---
+
 ## Progress Summary
 
 **71 problems solved** (one solution folder each on disk).

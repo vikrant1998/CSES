@@ -6,6 +6,8 @@ Use the personal `$competitive-programming-coach` skill for live progress checks
 
 Also use that skill for Hello Interview system-design progress and readiness checks. Treat `SYSTEM_DESIGN_PROGRESS.md` as the manual source of truth. Keep reading coverage separate from independent design and mock-interview evidence.
 
+The root `README.md` is the public entry point for the combined Google FDE preparation program. Keep its FDE source-of-truth links and last-verified snapshot aligned when persistent tracking structure or verified counts change.
+
 ## Goal And Plan
 
 - Challenge start: 2026-05-28
