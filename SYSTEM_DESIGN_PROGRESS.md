@@ -109,8 +109,8 @@ Reading is not sufficient evidence of FDE readiness. Pair the curriculum with pr
 
 - Repository: `https://github.com/langchain-ai/agents-from-scratch`
 - Local checkout: `/Users/viksat98/agents-from-scratch`
-- Last reviewed: 2026-07-22
-- Estimated curriculum coverage: 51%
+- Last reviewed: 2026-07-23
+- Estimated curriculum coverage: 77%
 
 #### Covered
 
@@ -133,6 +133,19 @@ Reading is not sufficient evidence of FDE readiness. Pair the curriculum with pr
 - [x] Selective approval for consequential tools versus automatic read-only tools
 - [x] Checkpoint and thread-ID fundamentals for pausing and resuming graph executions
 - [x] HITL accept, edit, ignore, and feedback response paths
+- [x] Interrupt resume semantics: the interrupted node re-executes from its beginning
+- [x] Stable idempotency keys for protecting approved side effects from retries
+- [x] `Command(resume=...)` and matching human responses to paused thread checkpoints
+- [x] Thread-scoped checkpoint memory versus cross-thread preference storage
+- [x] Store namespaces, keys, values, and per-user memory isolation
+- [x] Converting explicit edits and feedback into generalized cross-thread preference profiles
+- [x] Retrieving relevant memory categories and keeping safety policy outside user-editable memory
+- [x] Development versus production store implementations and persistence guarantees
+- [x] Replacing mock tools with Gmail API adapters while preserving graph and tool contracts
+- [x] Gmail ingestion: search, full-thread retrieval, latest-message and sender filtering, then graph invocation
+- [x] Gmail thread continuity, message-level deduplication, and atomic ingestion claims
+- [x] Stable operation-level idempotency keys and the distinction from ingestion deduplication
+- [x] OAuth scopes, least privilege, and keeping credentials outside model context
 
 #### Demonstrated Understanding
 
@@ -146,6 +159,19 @@ Reading is not sufficient evidence of FDE readiness. Pair the curriculum with pr
 - Can identify which tool actions should normally require human approval
 - Understands that thread IDs isolate and resume the correct paused workflow
 - Can distinguish direct argument editing from feedback that asks the model to generate a new proposal
+- Understands why non-idempotent side effects must not occur before an interrupt
+- Understands why retry deduplication requires a stable logical-operation key
+- Can distinguish checkpoint selection by `thread_id` from the resume value returned by `interrupt()`
+- Can place pending workflow state and conversation messages in checkpoints while keeping reusable preferences in a store
+- Understands why cross-thread memory namespaces must include stable user identity and memory category
+- Understands why a situation-specific feedback event should not automatically become a global preference
+- Understands that stored memory is untrusted data and cannot override application-enforced approval policy
+- Understands why process-local memory cannot provide durable or multi-instance production behavior
+- Understands that OAuth, API encoding, and credential refresh belong inside the integration layer rather than graph logic
+- Understands why ingestion should avoid separately processing stale messages and the user's own sent replies
+- Understands how concurrent pollers can both process one message when check-and-insert is not atomic
+- Understands why retries of one logical external action must reuse the same idempotency key
+- Understands why read-only workloads should not receive Gmail modification permissions
 
 #### Reinforce
 
@@ -158,8 +184,8 @@ Reading is not sufficient evidence of FDE readiness. Pair the curriculum with pr
 
 - [ ] Finish and test the basic email agent (architecture covered; execution remains)
 - [x] Evaluation module concepts and test-dataset workflow
-- [ ] Finish the human-in-the-loop module (interrupt, approval, edit, and checkpoint concepts covered)
-- [ ] Memory and persistence
+- [x] Human-in-the-loop module concepts (local execution/testing remains optional practice)
+- [x] Memory and persistence module concepts (production implementation remains applied practice)
 - [ ] Gmail integration and deployment
 
 Update this section only from completed work or concepts demonstrated during the walkthrough. Keep exposure, demonstrated understanding, and applied project evidence separate.

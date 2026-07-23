@@ -205,6 +205,100 @@ GPT + bound tools  -> propose actions
 
 **Answer:** The message reducer would normally append it as a second message instead of replacing the original proposal. Keeping the original message ID allows the reducer to replace the stale version and preserve truthful history.
 
+### 24. What happens to code before `interrupt()` when a thread resumes?
+
+**Your answer:** A side effect such as reserving inventory could run twice because the node re-runs after approval.
+
+**Review:** Correct. An interrupted node re-executes from its beginning. Keep non-idempotent side effects after approval and make repeated execution safe.
+
+### 25. Why is a newly generated UUID a bad idempotency key?
+
+**Your answer:** It creates a different key each time, so a retry cannot match the original operation.
+
+**Review:** Correct. Retries of one logical operation must reuse a stable key.
+
+### 26. What are the separate roles of `thread_id` and `resume`?
+
+**Your answer:** The thread ID finds the particular paused process, and resume continues it after the interrupt.
+
+**Review:** Correct overall. The thread ID selects the saved checkpoint. `resume` supplies the value returned by `interrupt()`, after which the node re-executes from its beginning.
+
+### 27. Which information belongs in a checkpointer versus a store?
+
+**Your answer:**
+
+- Pending approval: checkpointer
+- General user preference: store
+- Current conversation messages: checkpointer
+
+**Review:** Correct. Checkpoints preserve one workflow; stores preserve reusable cross-thread knowledge.
+
+### 28. Why must a memory namespace include user identity?
+
+**Your answer:** Otherwise memories from multiple users become confused.
+
+**Review:** Correct. Missing identity boundaries can cause both incorrect personalization and cross-user data exposure.
+
+### 29. Why not store one specific edit as a global preference?
+
+**Your answer:** It may be specific to one use case rather than a general preference.
+
+**Review:** Correct. Preserve the event as audit history if useful, but require appropriate evidence before generalizing it.
+
+### 30. Why must approval policy stay outside user-editable memory?
+
+**Your answer:** Memory is data and can contain maliciously injected content; application policy enforces the required path.
+
+**Review:** Correct. Retrieved memory may influence proposals but cannot weaken authorization or approval controls.
+
+### 31. Why does `InMemoryStore` fail as production memory?
+
+**Your answer:** It resets when the process exits.
+
+**Review:** Correct. It also cannot reliably share state across multiple application instances.
+
+### 32. What changes when mock tools are replaced with Gmail tools?
+
+**Your answer:** The function contract remains the same while Gmail handles OAuth and the real work behind the scenes.
+
+**Review:** Correct. Graph orchestration stays stable; authentication, encoding, API requests, and token refresh belong inside the adapter.
+
+### 33. Why process only the latest message in a Gmail thread?
+
+**Your answer:** Otherwise the agent may reply to older messages or messages already sent by the user.
+
+**Review:** Correct. Full-thread context plus latest-message filtering prevents stale and contradictory replies.
+
+### 34. Why must claiming an incoming message be atomic?
+
+**Your answer:** Without atomicity, two workers could start runs simultaneously.
+
+**Review:** Correct. A unique message-ID constraint with an atomic insert lets only one worker claim the message.
+
+### 35. What is an idempotency key, and should a retry reuse it?
+
+**Your answer:** Reuse the same key so the system can tell whether the operation was already completed.
+
+**Review:** Correct. Message claims deduplicate incoming work; operation keys deduplicate external effects such as sending a reply.
+
+### 36. Why should a read-only email assistant not receive `gmail.modify`?
+
+**Your answer:** It only needs to read, and limiting access is good security practice.
+
+**Review:** Correct. OAuth permissions should match the minimum capabilities required by the workload.
+
+## RAG Placement
+
+This repository does not implement a complete RAG pipeline. It only mentions semantic search as an optional memory-store capability. A full system still needs document ingestion, chunking, embeddings, vector indexing, retrieval, grounding, and citations.
+
+RAG would enter this architecture as a retrieval node or tool:
+
+```text
+Question -> retrieval tool -> vector search -> relevant passages -> model answer
+```
+
+Agent memory retrieves user preferences and prior interaction knowledge. RAG retrieves external knowledge such as product documentation. A vector database can support either use case but is not itself the complete RAG system.
+
 ## Architecture Summary
 
 ```text
@@ -276,9 +370,9 @@ Pytest runs assertions. LangSmith stores traces and compares experiments. Regres
 
 ## Next Session
 
-Continue the human-in-the-loop module:
+Continue the Gmail integration and deployment material:
 
-1. Review how edited messages replace earlier messages through matching IDs.
-2. Trace accept, edit, ignore, and feedback from interrupt to resume.
-3. Finish HITL tests and deployment behavior.
-4. Begin memory: thread-scoped checkpoints versus cross-thread stores.
+1. Trace Gmail reply construction and thread preservation.
+2. Review calendar-tool execution and approval behavior.
+3. Cover cron ingestion and deployment boundaries.
+4. Finish the repository and connect a retrieval tool conceptually.
