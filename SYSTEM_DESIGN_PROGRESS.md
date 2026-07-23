@@ -212,6 +212,8 @@ Reading is not sufficient evidence of FDE readiness. Pair the curriculum with pr
 
 #### Applied Evidence
 
+Deferred by user until a later build phase. Do not treat these items as remaining conceptual curriculum or prompt for execution unless requested.
+
 - [ ] Local test-suite execution verified
 - [ ] Local LangGraph server and interrupt-resume flow verified
 - [ ] Cross-thread memory behavior verified

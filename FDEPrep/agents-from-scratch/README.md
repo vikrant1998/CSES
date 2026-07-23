@@ -440,6 +440,8 @@ Pytest runs assertions. LangSmith stores traces and compares experiments. Regres
 
 Conceptual completion does not establish that the repository has been executed successfully. The following remain unverified:
 
+These items are intentionally deferred until a later build phase and are not part of the current learning-completion target.
+
 - [ ] Local test suite
 - [ ] Local LangGraph server and interrupt-resume flow
 - [ ] Cross-thread memory behavior
