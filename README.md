@@ -33,11 +33,11 @@ Topic Checklist later in this README as the NeetCode completion count.
 
 ### Last Verified FDE Snapshot
 
-Verified 2026-07-23, challenge day 57:
+Verified 2026-07-24, challenge day 58:
 
 - CSES: 70/120 core problems, plus 1/13 String Algorithms
-- NeetCode: 54/150
-- Combined coding total: 125
+- NeetCode: 56/150
+- Combined coding total: 127
 - Hello Interview: 2/30 readings, 0 independent designs, 0 mocks
 - AI FDE supporting curriculum: 0/11
 - `agents-from-scratch`: 100% conceptual curriculum; applied execution deferred
