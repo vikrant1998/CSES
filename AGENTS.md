@@ -46,9 +46,12 @@ If either repository cannot be reached, state that verification failed. Do not e
 ## Progress Check Output
 
 - Give verified numbers and section breakdowns, followed by a few plain-English sentences explaining how progress is going.
+- Include an evidence-based Google FDE interview-readiness score out of 100 on every programming-progress check. Treat it as a current readiness assessment, not a pass probability, and explain the main evidence raising and limiting it.
 - Include a brief, specific, and grounded motivational note on every progress check.
+- Keep the final summary relatively concise and motivating.
 - Do not add unsolicited schedules or problem recommendations.
 - Include the current challenge day, verified CSES count, verified NeetCode count, combined count, and solve pace calculated from live totals.
+- State the solve pace prominently as `X problems/day` in every progress summary.
 - Include CSES solved/total by section from the live README.
 - Include Hello Interview core breakdowns read out of 30, independent designs completed, and timed/peer mocks completed from `SYSTEM_DESIGN_PROGRESS.md`.
 - Evaluate coding readiness and applied system-design readiness separately. Use both when explaining progress toward Google FDE readiness, but do not treat reading coverage as proof of design ability.
@@ -76,9 +79,9 @@ These items are manually tracked context, not verified solve counts. Do not sile
 
 This snapshot is historical context only. Refresh both repositories before presenting current progress.
 
-- Verified: 2026-07-24
-- Challenge day: 58
-- CSES README total: 71
-- NeetCode: 56
-- Combined: 127
-- CSES breakdown: Introductory 19, Sorting and Searching 21, Dynamic Programming 10, Graph Algorithms 14, Tree Algorithms 4, Range Queries 2, String Algorithms 1
+- Verified: 2026-07-26
+- Challenge day: 60
+- CSES README total: 72
+- NeetCode: 57
+- Combined: 129
+- CSES breakdown: Introductory 19, Sorting and Searching 22, Dynamic Programming 10, Graph Algorithms 14, Tree Algorithms 4, Range Queries 2, String Algorithms 1
