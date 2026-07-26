@@ -6,7 +6,7 @@ Source catalog: `https://www.hellointerview.com/learn/system-design/in-a-hurry/p
 
 ## Progress Summary
 
-- Core breakdowns read: 2/30
+- Core breakdowns read: 3/30
 - Independent designs completed: 0/30
 - Timed or peer mocks completed: 0
 
@@ -26,7 +26,7 @@ Source catalog: `https://www.hellointerview.com/learn/system-design/in-a-hurry/p
 - [ ] Ticketmaster
 - [ ] Instagram
 - [ ] FB News Feed
-- [ ] Tinder
+- [x] Tinder — 2026-07-26
 - [ ] LeetCode
 - [ ] WhatsApp
 - [ ] Strava
