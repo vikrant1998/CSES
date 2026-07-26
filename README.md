@@ -49,18 +49,18 @@ current progress.
 
 ## Progress Summary
 
-**71 problems solved** (one solution folder each on disk).
+**72 problems solved** (one solution folder each on disk).
 
 | Topic | Solved |
 |-------|--------|
 | Introductory | 19 |
-| Sorting and Searching | 21 |
+| Sorting and Searching | 22 |
 | Dynamic Programming | 10 |
 | Graph Algorithms | 14 |
 | Tree Algorithms | 4 |
 | Range Queries | 2 |
 | String Algorithms | 1 |
-| **Total** | **71** |
+| **Total** | **72** |
 
 Every solved problem is checked off `[x]` in its phase section below. Counts are
 solved-only — there's no fixed target to finish, just more problems.
@@ -146,7 +146,7 @@ Focus:
 - [x] Sum of Three Values — 2026-07-13
 - [x] Sum of Four Values — 2026-07-13
 - [x] Nearest Smaller Values — 2026-07-21
-- [ ] Subarray Sums I
+- [x] Subarray Sums I — 2026-07-26
 - [ ] Subarray Sums II
 - [ ] Subarray Divisibility
 - [ ] Array Division
