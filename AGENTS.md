@@ -58,7 +58,16 @@ If either repository cannot be reached, state that verification failed. Do not e
 - Flag the open tracking items below after the numeric report.
 - Keep the report concise.
 
-After each newly detected submission, reassess readiness from the actual cumulative solved set and representative code. Do not base the score on the user's self-analysis or manually tracked backlog. Recommend 2-4 unsolved CSES or NeetCode problems that extend demonstrated prerequisites and address the most valuable Google FDE/SDE interview gaps. Prioritize common interview patterns over competitive-programming-specialized topics such as Fenwick trees, segment trees, SCC, or advanced DP unless those prerequisites and higher-priority patterns are already covered.
+After each newly detected submission, reassess readiness from the actual
+cumulative solved set and representative code. Do not base the score on the
+user's self-analysis or manually tracked backlog. For a normal progress check,
+do not include code critique, schedules, or next-problem recommendations unless
+the user explicitly asks for them. When the user requests recommendations,
+provide 2-4 unsolved CSES or NeetCode problems that extend demonstrated
+prerequisites and address the most valuable Google FDE/SDE interview gaps.
+Prioritize common interview patterns over competitive-programming-specialized
+topics such as Fenwick trees, segment trees, SCC, or advanced DP unless those
+prerequisites and higher-priority patterns are already covered.
 
 ## Open Tracking Items
 
