@@ -14,7 +14,7 @@ The root `README.md` is the public entry point for the combined Google FDE prepa
 - Duration: 200 days
 - Tracks: CSES problem-set spine and NeetCode 150
 - System-design track: all core Hello Interview question breakdowns, tracked in `SYSTEM_DESIGN_PROGRESS.md`
-- AI FDE curriculum: follow the ordered `ai-system-design-guide` checklist in `SYSTEM_DESIGN_PROGRESS.md`
+- AI FDE curriculum: follow the merged `ai-system-design-guide` and LLM Zoomcamp checklist in `SYSTEM_DESIGN_PROGRESS.md`; use `FDEPrep/production-ai-systems/README.md` for the guided walkthrough
 - Primary long-term goal: Google FDE interview readiness
 - Maintain Google SDE-level algorithms, data structures, coding, and problem-solving ability even though FDE is the target role.
 - Compute the current challenge day from the start date; do not store a remembered day number as current.
@@ -79,9 +79,9 @@ These items are manually tracked context, not verified solve counts. Do not sile
 
 This snapshot is historical context only. Refresh both repositories before presenting current progress.
 
-- Verified: 2026-07-26
-- Challenge day: 60
+- Verified: 2026-07-27
+- Challenge day: 61
 - CSES README total: 72
-- NeetCode: 57
-- Combined: 129
+- NeetCode: 58
+- Combined: 130
 - CSES breakdown: Introductory 19, Sorting and Searching 22, Dynamic Programming 10, Graph Algorithms 14, Tree Algorithms 4, Range Queries 2, String Algorithms 1

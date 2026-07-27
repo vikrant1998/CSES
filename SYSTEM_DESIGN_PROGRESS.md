@@ -6,7 +6,7 @@ Source catalog: `https://www.hellointerview.com/learn/system-design/in-a-hurry/p
 
 ## Progress Summary
 
-- Core breakdowns read: 3/30
+- Core breakdowns read: 4/30
 - Independent designs completed: 0/30
 - Timed or peer mocks completed: 0
 
@@ -19,7 +19,7 @@ Source catalog: `https://www.hellointerview.com/learn/system-design/in-a-hurry/p
 - [x] Bitly — 2026-07-18
 - [x] Dropbox — 2026-07-18
 - [ ] Yelp
-- [ ] Local Delivery Service
+- [x] Local Delivery Service — 2026-07-27
 
 ### Medium
 
@@ -77,31 +77,46 @@ These are outside the 30 core written breakdowns and do not change the main deno
 - [ ] GitHub Actions
 - [ ] Notification System
 
-## AI FDE Supporting Curriculum
+## Production AI Systems FDE Curriculum
 
-Source: `https://github.com/ombharatiya/ai-system-design-guide`
+Sources:
 
-Use this after or alongside the general Hello Interview foundation. Follow the order below; do not read the repository linearly by folder number.
+- `https://github.com/ombharatiya/ai-system-design-guide`
+- `https://github.com/DataTalksClub/llm-zoomcamp`
+
+Detailed learning guide: [`FDEPrep/production-ai-systems/README.md`](FDEPrep/production-ai-systems/README.md)
+
+This combines the AI System Design Guide's architecture and interview reasoning
+with LLM Zoomcamp's concrete pipelines. It follows a prerequisite-aware order,
+deduplicates the completed Agents From Scratch material, and tracks conceptual
+understanding separately from applied evidence.
 
 <!-- ai-fde-curriculum:start -->
 
-1. [ ] `00-interview-prep`
-2. [ ] `06-retrieval-systems`
-3. [ ] `07-agentic-systems`
-4. [ ] `08-memory-and-state`
-5. [ ] `11-infrastructure-and-mlops`
-6. [ ] `12-security-and-access`
-7. [ ] `13-reliability-and-safety`
-8. [ ] `14-evaluation-and-observability`
-9. [ ] `15-ai-design-patterns`
-10. [ ] `16-case-studies`
-11. [ ] `17-tool-use-and-computer-agents`
+1. [ ] Frame the AI system
+2. [ ] RAG foundations
+3. [ ] Ingestion and chunking
+4. [ ] Embeddings and vector search
+5. [ ] Better retrieval
+6. [ ] Agentic RAG
+7. [ ] Orchestration, state, and memory
+8. [ ] Evaluation
+9. [ ] Monitoring and observability
+10. [ ] Production reliability, scale, and cost
+11. [ ] Security, access, and guardrails
+12. [ ] End-to-end FDE design
 
 <!-- ai-fde-curriculum:end -->
 
-Model landscape and training chapters are initial skim material. Voice, multimodal generation, and deep inference optimization are optional unless a target FDE posting emphasizes them.
+Current conceptual coverage: 0/12 (0%). Applied checkpoints completed: 0/12.
 
-Reading is not sufficient evidence of FDE readiness. Pair the curriculum with production-oriented work involving RAG, agents/tools, evaluation and tracing, security, deployment, debugging, and customer-facing explanation.
+Model landscape, training, framework catalogs, voice, multimodal generation, and
+deep inference optimization are reference material unless a target FDE posting
+or project emphasizes them.
+
+Reading is not sufficient evidence of FDE readiness. Complete a section only
+after demonstrated understanding. Track builds, tests, designs, and debugging
+artifacts separately as applied evidence.
 
 ## Practical AI Agent Engineering
 
