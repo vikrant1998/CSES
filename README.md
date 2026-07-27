@@ -49,7 +49,7 @@ current progress.
 
 ## Progress Summary
 
-**72 problems solved** (one solution folder each on disk).
+**73 problems solved** (one solution folder each on disk).
 
 | Topic | Solved |
 |-------|--------|
@@ -60,7 +60,8 @@ current progress.
 | Tree Algorithms | 4 |
 | Range Queries | 2 |
 | String Algorithms | 1 |
-| **Total** | **72** |
+| Geometry | 1 |
+| **Total** | **73** |
 
 Every solved problem is checked off `[x]` in its phase section below. Counts are
 solved-only — there's no fixed target to finish, just more problems.
@@ -76,6 +77,7 @@ DynamicProgramming/
 Graph/
 Tree/
 RangeQueries/
+Geometry/
 check.sh               # ./check.sh solution.py [tests_dir] — diffs against tests/*.out
 ```
 
@@ -317,6 +319,14 @@ Important: come back to `Word Combinations` here, not earlier.
 - [ ] Distinct Subsequences
 - [ ] Repeating Substring
 - [ ] String Functions
+
+---
+
+# Geometry
+
+## Geometry
+
+- [x] Point Location Test — 2026-07-26
 
 ---
 
