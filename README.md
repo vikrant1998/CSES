@@ -22,7 +22,7 @@ preparation. The goal is FDE readiness with Google SDE-level coding ability.
 |---|---|---|
 | CSES | This README's phase checkboxes | Core algorithms and competitive-programming implementation |
 | NeetCode 150 | [`vikrant1998/neetcode-submissions`](https://github.com/vikrant1998/neetcode-submissions) | Interview-style problem coverage; count live problem directories |
-| Hello Interview | [`SYSTEM_DESIGN_PROGRESS.md`](SYSTEM_DESIGN_PROGRESS.md) | Readings, independent designs, and mocks tracked separately |
+| Hello Interview | [`SYSTEM_DESIGN_PROGRESS.md`](SYSTEM_DESIGN_PROGRESS.md) | Optional user-selected breakdowns taught on demand |
 | Production AI systems | [`SYSTEM_DESIGN_PROGRESS.md`](SYSTEM_DESIGN_PROGRESS.md) | Merged `ai-system-design-guide` and LLM Zoomcamp curriculum |
 | Practical AI agents | [`SYSTEM_DESIGN_PROGRESS.md`](SYSTEM_DESIGN_PROGRESS.md) | Curriculum checkpoints and applied evidence |
 | Agent review notes | [`FDEPrep/agents-from-scratch/README.md`](FDEPrep/agents-from-scratch/README.md) | Questions, corrections, architecture summaries, and reinforcement topics |
@@ -39,7 +39,7 @@ Verified 2026-07-27, challenge day 61:
 - CSES: 71/120 core problems, plus 1/13 String Algorithms
 - NeetCode: 58/150
 - Combined coding total: 130
-- Hello Interview: 4/30 readings, 0 independent designs, 0 mocks
+- Hello Interview: 4/30 optional guided breakdowns
 - Production AI systems curriculum: 0/12 conceptual sections, 0/12 applied checkpoints
 - `agents-from-scratch`: 100% conceptual curriculum; applied execution deferred
 

@@ -1,14 +1,15 @@
 # Hello Interview System Design Progress
 
-Primary goal: finish all current Hello Interview written system-design problem breakdowns. Reading coverage and applied design readiness are tracked separately.
+This is a reference log for Hello Interview breakdowns the user chooses to
+study. It is not a required curriculum, coaching sequence, or readiness gate.
+Teach a requested problem step by step and record it after completion. The
+general concepts may support later AI system-design learning.
 
 Source catalog: `https://www.hellointerview.com/learn/system-design/in-a-hurry/problem-breakdowns`
 
 ## Progress Summary
 
 - Core breakdowns read: 4/30
-- Independent designs completed: 0/30
-- Timed or peer mocks completed: 0
 
 ## Core Breakdown Reading
 
@@ -55,15 +56,11 @@ Source catalog: `https://www.hellointerview.com/learn/system-design/in-a-hurry/p
 
 <!-- core-breakdowns:end -->
 
-## Independent Designs
-
-An item belongs here only after attempting the design before reviewing the solution. Record the date and optionally link notes or a diagram.
-
+<!-- Legacy collector block: independent designs are not required. -->
 <!-- independent-designs:start -->
 <!-- independent-designs:end -->
 
-## Timed And Peer Mocks
-
+<!-- Legacy collector block: mocks are not part of this learning plan. -->
 <!-- system-design-mocks:start -->
 <!-- system-design-mocks:end -->
 
@@ -239,6 +236,9 @@ Update this section only from completed work or concepts demonstrated during the
 
 Detailed review notes: [`FDEPrep/agents-from-scratch/README.md`](FDEPrep/agents-from-scratch/README.md)
 
-## Assessment Rule
+## Tracking Rule
 
-Reading a breakdown increases topic exposure but does not prove design ability. Applied readiness is assessed from independent designs, tradeoff reasoning, deep dives, and spoken or timed practice. Do not infer applied readiness from reading completion alone.
+Record only requested breakdowns that were actually completed. Do not prescribe
+a sequence, require independent designs or mocks, or penalize incomplete Hello
+Interview coverage. Guided answers and tradeoff explanations can be reused as
+supporting context when teaching AI system design.
