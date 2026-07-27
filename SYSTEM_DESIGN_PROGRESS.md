@@ -1,9 +1,10 @@
 # Hello Interview System Design Progress
 
-This is a reference log for Hello Interview breakdowns the user chooses to
-study. It is not a required curriculum, coaching sequence, or readiness gate.
-Teach a requested problem step by step and record it after completion. The
-general concepts may support later AI system-design learning.
+Primary goal: finish all 30 Hello Interview core breakdowns through guided
+walkthroughs. This is the foundational system-design curriculum and the bedrock
+for later AI system design. Independent designs and mocks are not required;
+understanding is demonstrated through the user's answers, retained system
+flows, and tradeoff explanations.
 
 Source catalog: `https://www.hellointerview.com/learn/system-design/in-a-hurry/problem-breakdowns`
 
@@ -236,9 +237,10 @@ Update this section only from completed work or concepts demonstrated during the
 
 Detailed review notes: [`FDEPrep/agents-from-scratch/README.md`](FDEPrep/agents-from-scratch/README.md)
 
-## Tracking Rule
+## Assessment Rule
 
-Record only requested breakdowns that were actually completed. Do not prescribe
-a sequence, require independent designs or mocks, or penalize incomplete Hello
-Interview coverage. Guided answers and tradeoff explanations can be reused as
-supporting context when teaching AI system design.
+Record only breakdowns that were actually completed. The goal is all 30 core
+breakdowns, but do not prescribe the next problem unless asked. Do not require
+independent designs or mocks. Assess understanding through guided answers,
+retained system flows, and tradeoff explanations, and reuse that foundation
+when teaching AI system design.

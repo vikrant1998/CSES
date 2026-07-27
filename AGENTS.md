@@ -4,12 +4,13 @@ Use these instructions for all progress checks, solve logging, and debugging wor
 
 Use the personal `$competitive-programming-coach` skill for live progress checks, readiness reassessments, new-submission reviews, and next-problem recommendations.
 
-Treat Hello Interview as an on-demand reference, not a coached curriculum or
-readiness requirement. When the user supplies a breakdown, teach it step by
-step and record completed coverage in `SYSTEM_DESIGN_PROGRESS.md`. Do not assign
-a Hello Interview sequence, independent designs, or mocks. Missing Hello
-Interview work must not reduce the readiness score. Concepts demonstrated
-during a walkthrough may support later AI system-design learning.
+Treat Hello Interview as the foundational system-design curriculum and the
+bedrock for later AI system design. The goal is to complete all 30 core
+breakdowns through guided learning. When the user supplies a breakdown, teach
+it step by step and record completed coverage in `SYSTEM_DESIGN_PROGRESS.md`.
+Do not require independent designs or mocks, and do not prescribe the next
+breakdown unless asked. Assess understanding from the user's guided answers,
+retained system flows, and tradeoff explanations.
 
 The root `README.md` is the public entry point for the combined Google FDE preparation program. Keep its FDE source-of-truth links and last-verified snapshot aligned when persistent tracking structure or verified counts change.
 
@@ -18,7 +19,7 @@ The root `README.md` is the public entry point for the combined Google FDE prepa
 - Challenge start: 2026-05-28
 - Duration: 200 days
 - Tracks: CSES problem-set spine and NeetCode 150
-- System-design reference: user-selected Hello Interview breakdowns, tracked in `SYSTEM_DESIGN_PROGRESS.md`
+- System-design foundation: all 30 Hello Interview core breakdowns, learned through guided walkthroughs and tracked in `SYSTEM_DESIGN_PROGRESS.md`
 - AI FDE curriculum: follow the merged `ai-system-design-guide` and LLM Zoomcamp checklist in `SYSTEM_DESIGN_PROGRESS.md`; use `FDEPrep/production-ai-systems/README.md` for the guided walkthrough
 - Primary long-term goal: Google FDE interview readiness
 - Maintain Google SDE-level algorithms, data structures, coding, and problem-solving ability even though FDE is the target role.
@@ -58,10 +59,11 @@ If either repository cannot be reached, state that verification failed. Do not e
 - Include the current challenge day, verified CSES count, verified NeetCode count, combined count, and solve pace calculated from live totals.
 - State the solve pace prominently as `X problems/day` in every progress summary.
 - Include CSES solved/total by section from the live README.
-- Include Hello Interview guided coverage briefly as optional context. Do not
-  treat its incomplete coverage as a readiness deficit.
-- Evaluate coding readiness and production AI system-design understanding
-  separately. Use both when explaining progress toward Google FDE readiness.
+- Include Hello Interview guided coverage out of 30 as foundational
+  system-design progress.
+- Evaluate coding readiness, foundational system-design understanding, and
+  production AI system-design understanding separately. Use all three when
+  explaining progress toward Google FDE readiness.
 - Flag the open tracking items below after the numeric report.
 - Keep the report concise.
 
