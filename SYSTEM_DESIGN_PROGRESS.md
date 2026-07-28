@@ -10,7 +10,7 @@ Source catalog: `https://www.hellointerview.com/learn/system-design/in-a-hurry/p
 
 ## Progress Summary
 
-- Core breakdowns read: 4/30
+- Core breakdowns read: 5/30
 
 ## Core Breakdown Reading
 
@@ -30,7 +30,7 @@ Source catalog: `https://www.hellointerview.com/learn/system-design/in-a-hurry/p
 - [ ] FB News Feed
 - [x] Tinder — 2026-07-26
 - [ ] LeetCode
-- [ ] WhatsApp
+- [x] WhatsApp — 2026-07-28
 - [ ] Strava
 - [ ] Distributed Cache
 - [ ] Rate Limiter
