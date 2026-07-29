@@ -100,6 +100,6 @@ This snapshot is historical context only. Refresh both repositories before prese
 - Verified: 2026-07-28
 - Challenge day: 62
 - CSES README total: 72
-- NeetCode: 59
-- Combined: 131
+- NeetCode: 60
+- Combined: 132
 - CSES breakdown: Introductory 19, Sorting and Searching 22, Dynamic Programming 10, Graph Algorithms 14, Tree Algorithms 4, Range Queries 2, String Algorithms 1

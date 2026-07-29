@@ -37,8 +37,8 @@ Topic Checklist later in this README as the NeetCode completion count.
 Verified 2026-07-28, challenge day 62:
 
 - CSES: 71/120 core problems, plus 1/13 String Algorithms
-- NeetCode: 59/150
-- Combined coding total: 131
+- NeetCode: 60/150
+- Combined coding total: 132
 - Hello Interview foundation: 5/30 guided breakdowns
 - Production AI systems curriculum: 0/12 conceptual sections, 0/12 applied checkpoints
 - `agents-from-scratch`: 100% conceptual curriculum; applied execution deferred
