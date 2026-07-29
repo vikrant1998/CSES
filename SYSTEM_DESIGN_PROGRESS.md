@@ -57,6 +57,23 @@ Source catalog: `https://www.hellointerview.com/learn/system-design/in-a-hurry/p
 
 <!-- core-breakdowns:end -->
 
+## Guided Understanding Evidence
+
+### WhatsApp — 2026-07-28
+
+- Identified low-latency delivery and high availability requirements.
+- Distinguished users, clients, chats, participants, and messages.
+- Explained why persistent WebSockets are preferable to repeated polling.
+- Distinguished durable message storage from per-client pending Inbox rows.
+- Understood that only a client ACK removes that client's Inbox row.
+- Chose direct signed-URL blob transfers for media.
+- Used per-user Pub/Sub channels to route messages across Chat Servers.
+- Explained why Redis delivery loss is recoverable from Messages and Inbox.
+- Understood per-device delivery state for multi-client accounts.
+- Explained heartbeat-based dead-connection detection and sequence-gap recovery.
+- Chose low-latency delivery with server-time ordering over perfect ordering.
+- Recognized that persisting every heartbeat creates unnecessary database writes.
+
 <!-- Legacy collector block: independent designs are not required. -->
 <!-- independent-designs:start -->
 <!-- independent-designs:end -->
